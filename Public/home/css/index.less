@@ -1,0 +1,253 @@
+@import "less/less";
+
+// 头部
+.logo{
+    .mg(15,0);
+}
+//轮播
+#carousel img{
+    max-width: none;
+    width: 1920px;
+    height: 500px;
+}
+//内容块容器
+.content{
+    .bc(#fcfafb);
+ 
+    .clear();
+   padding: 30px 0;
+   
+}
+//搜索
+.search{ 
+     .bc(#fcfafb);
+     width: 1000px;
+     margin: 0px auto;
+     margin-bottom: 30px;
+    //文本框
+    .form-control{
+        .bc(@e6);
+        border:@e6;
+        border-top-left-radius:50px;
+        border-bottom-left-radius:50px;
+        &:focus{
+            outline: none;
+            box-shadow:none;
+            border:@e6;
+        }
+    }
+    //按钮背景
+     .btn{
+         .bc_gd(@c_t,@c_b);
+         .br(@z);
+         .pd(6,50);
+         bottom: 0px;
+         border-top-right-radius:50px;
+         border-bottom-right-radius:50px;
+         &:hover{
+            .bc(@z);
+         }
+         
+     }
+     //图标
+     .input-group-btn{
+        position: relative;
+        &:after{
+            content: '';
+            .ic("search.png",22,22);
+            background-size: cover;
+            position: absolute;
+            top:5px;
+            right: 42px;
+            z-index: 10;
+            cursor: pointer;
+        }
+     }
+}
+
+
+//导航容器
+.content-nav{
+    // 
+  
+}
+//导航 左
+.nav-left{
+
+    float: left;
+    li{
+        width: 230px;
+        height: 65px;
+        line-height: 65px;
+        text-align: center;
+        .br(@e6);
+        .bc(@f);
+        //产业分类
+        &:first-child{
+            .br(@c_b);
+            .bc_gd(@c_t,@c_b);
+            .cf(@f,18);
+           
+        }
+       a{
+            width: 230px;
+            height: 65px;
+            display: block;
+       }
+    }
+    
+}
+//左侧激活样式
+.left-active{
+    a{
+        .cr(@z);
+    }
+}
+//导航 上
+.nav-top{
+    float: left;
+    .bc(@f);
+ 
+    margin-left: 10px;
+    ul{
+        .clear();
+    }
+    li{
+      
+        line-height: 55px;
+        float: left;
+        text-align: center;
+        .bc(@e6);
+        margin-right: 5px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    a{ 
+         width: 128px;
+        height: 55px;
+        .cr(#666);
+        display: block;
+    }
+    //激活状态
+    .top-active{
+        .bc_gd(@c_t,@c_b);
+        a{
+            .cr(@f);
+        }
+    }
+}
+//内容区
+.cont-box{
+    float: left;
+    margin-left: 10px;
+    width: 926px;
+    height: 453px;
+    margin-top: 10px;
+    .bc(@f);
+
+    ul{
+        margin: 30px;
+    }
+    
+}
+// 列表
+.news{
+    li{
+        margin-bottom: 10px;
+        &:before{
+            content: '';
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background: @z;
+            border-radius: 50%;
+            margin-right: 8px;
+            position: relative;
+            top:-2px;
+        }
+        span{
+            &:last-child{
+                float: right;
+                .cr(#c4c3c4);
+            }
+        }
+    }
+}
+//分页
+.pages{
+
+
+    li{
+        margin-right: 10px;
+    }
+}
+//分页激活
+.page-active{
+  
+    a{
+        .bc_gd(@c_t,@c_b);
+        .cr(@f);
+    }
+}
+//地图版本
+.maps{
+    padding: 30px 0;
+    h1{
+        .cf(@z,28);
+        text-align: center;
+        margin-bottom: 30px;
+        &:before{
+            .line();
+            text-align: right;
+            bottom:5px;
+            margin-right: 30px;
+        }
+        &:after{
+            .line();
+            text-align: left;
+            bottom:5px;
+            margin-left: 30px;
+        }
+    }
+}
+// 线
+.line(){
+    content: '';
+    width:60px;
+    height:2px;
+    .bc(@z);
+    display: inline-block;
+    position: relative;
+ 
+}
+// 地图
+.map{
+     position:relative;width:716px; margin:0 auto;
+     a{
+        color:#5b5a5a; font-size:14px; text-decoration:none;
+        &:hover{
+            color:#fff;
+        }
+     }
+}
+
+.citybg{ position:absolute; display:none; z-index:3; }
+.city a.active .citybg{ display:block; z-index:3;}
+//底部
+.footer{
+    .bc(#f5f5f5);
+   padding-top:30px;
+   padding-bottom: 15px;
+    text-align: center;
+    h6,p{
+        .cr(#666);
+    }
+    h6{
+        .ft(14);
+        margin: 10px 0;
+    }
+    p{
+        .ft(12);
+    }
+}

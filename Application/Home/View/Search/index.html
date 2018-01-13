@@ -1,0 +1,104 @@
+   
+    <include file="Public/header" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/search-list.css">
+    <section class="seal-search">
+        <div class="container">
+
+            <article class="search-form">
+                <form id="searchform" action="{:U('Search/index')}"  method="get">
+                          <div class=" btn-group" id="g-input">
+                                <input type="text" class="btn-group" name='keyword' placeholder="请输入人名、企业" id="g-text"/>
+                                <input type="submit" class="btn-group" value="开始搜索" id="g-btn"/>
+                        </div>
+                    </form>
+            </article>
+
+            <article class="seal-tab">
+                <span>搜索范围</span>
+                <span>|</span>
+                <span class="s-t">
+                    <a class="tab-active" href="{:U('Search/index',array('keyword'=>$keyword))}">全部</a>
+                    <a class="" href="{:U('Search/index',array('keyword'=>$keyword,'type'=>'1'))}">举报</a>
+                    <a href="{:U('Search/index',array('keyword'=>$keyword,'type'=>'2'))}">表扬</a>
+                </span>
+
+            </article>
+
+            <div class="seal-lists">
+                <ul>
+                    <if condition="count($list) eq 0">
+                        <li style="min-height: 180px;text-align: center;">
+                         <div class="sl-cont">
+                                <span>暂未搜索到您需要的结果！</span>
+                                <span class="seal-time"></span>
+                            </div>
+                        </li>
+                 </if>
+                	<foreach name="list" item="vo">
+                    <li>
+                        <if condition="$vo['type'] eq '1'">
+                        <a href="{:U('Report/details',array('id'=>$vo['id']))}">
+                        <else />
+                        <a href="{:U('Praise/details',array('id'=>$vo['id']))}">
+                    </if>
+                            <div class="sl-cont">
+                                <span>{$vo.title}</span>
+                                <span class="seal-time">{$vo.addtime|date='Y-m-d',###}</span>
+                            </div>
+                            <p>被（举报/表扬）人：{$vo.bereport}</p>
+
+                        </a>
+                    </li>
+                </foreach>
+       
+                </ul>
+            </div>
+
+
+
+        </div>
+
+            <!-- 分页 -->
+            <div class="seal-page">
+
+                 
+                    	{$page}
+     
+                    </ul> 
+                </div>
+
+    </section>
+
+    <include file="Public/footer" />
+    
+
+<script type="text/javascript">
+	$(function(){
+		var str = String(window.location);
+		if(str.indexOf("type") < 0 )
+		{
+    		$(".s-t a").eq(0).addClass("tab-active").siblings().removeClass('tab-active');
+		}else{
+			 str = str.substr(str.lastIndexOf("type") +5,1);
+       		 // console.log(str);
+
+        	if(str==1){
+        		$(".s-t a").eq(1).addClass("tab-active").siblings().removeClass('tab-active');
+        	}else{
+        		$(".s-t a").eq(2).addClass("tab-active").siblings().removeClass('tab-active');
+        	}
+		}
+       
+        
+       $("#searchform").submit(function(){
+
+                var keyword=$("input[name='keyword']").val();
+                if(keyword==''){
+                    tip('请输入内容！');
+                    return false;
+                }
+                
+            })
+	})
+
+</script>

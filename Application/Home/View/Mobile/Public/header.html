@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="名声网,名声,表扬,诚信,信誉,msw110,公正,负责,友善" />
+    <meta name="description" content="名声网，平台宗旨：传播好名声，改善差名声，完善社会体系。表扬好名声，改善差名声，人人参与共建诚信社会" />
+    <link rel="icon" href="__ROOT__/public/home/img/d-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__ROOT__/public/home/css/common.css">
+    <link rel="stylesheet" href="__ROOT__/public/home/css/index.css">
+
+
+    <title>名声网</title>
+</head>
+
+<body>
+    <!--  [if lte IE 9]>
+        <p class="ie">您的IE浏览器版本太低, 请使用谷歌或非ie内核浏览器浏览, 以获取最佳的体验</p>
+    <![endif] -->
+
+
+    <section id="header">
+        <div class="container">
+            <div class="header-top clear">
+                <img class="logo" src="__ROOT__/public/home/img/log.png" alt="">
+                <span class="head1 hidden-xs">
+                    平台宗旨：传播好名声，改善差名声，完善社会体系
+                </span>
+
+                <div class="head2">
+                    <a href="/">名声网首页</a>
+                    <empty name="realname">
+                    <a href="{:U('Login/index')}">登录</a>
+                    <else /><a class="signl" href="javascript:;">{$realname}
+                        <i></i>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{:U('User/index')}">个人中心</a>
+                        </li>
+                        <li>
+                            <a href="{:U('User/ChangePwd')}">修改密码</a>
+                        </li>
+                        <li>
+                            <a href="{:U('User/Loginout')}" class="a2">退出登录</a>
+                        </li>
+                    </ul></empty>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="modal fade bs-example-modal-sm" id="tip" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">提示信息</h4>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>

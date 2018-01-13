@@ -1,0 +1,156 @@
+<include file="Public/header" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/report-detail.css">
+ <!--      <div class="modal fade" id="tip" >
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" ><span >&times;</span><button>
+             <h4 class="modal-title">提示信息</h4>
+            </div>
+            <div class="modal-body">
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close<tton>
+              <button id="tourl" type="button" class="btn btn-primary">去充值<button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+  <div class="modal fade bs-example-modal-sm" id="tip" tabindex="-1" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        <h4 class="modal-title">提示信息</h4>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button id="tourl" type="button" class="btn btn-primary">去充值<button>
+
+      </div>
+    </div>
+  </div>
+</div>
+    <section class="report-content">
+        <div class="container">
+            <h1>
+                {$result.title}
+                <if condition="$result['state'] eq '0'">
+                                <span class="active-b">【受理中】</span>
+                                <elseif condition="$result['state'] eq '1'" />
+                                <span class="active-g">【已通过】</span>
+                                <else />
+                                <span class="active-r">【未通过】</span>
+                                </if>
+            </h1>
+            <div class="titel">
+                <span class="p1">
+                    被举报人：
+                    <span>{$result.bereport}</span>
+                </span>
+
+                <span class="p2">
+                    籍贯：
+                    <span>{$result.native_place}</span>
+                </span>
+                <span class="p3">
+                   {$result.addtime|date="Y-m-d",###}
+                </span>
+            </div>
+            <div class="content clear">
+                {$result.content|htmlspecialchars_decode=###}
+                <if condition="$result['see_name'] eq '1'">
+                <span class="p4">
+                    举报人：
+                    <span>{$result.report_id|get_user_byid}</span>
+                </span>
+                <else />
+                    <span class="p4">
+                    举报人：
+                    <span>{$result.report_id|get_user_byid|substr_replace=###,' *',3,9}</span>
+                </span>
+            </if>
+            </div>
+
+            <if condition="$result['save_state'] eq '0'">
+            <div class="c-btn">
+                <input type="hidden" name="event_id" value="{$result.id}">
+                <a href="{:U('User/Sue',array('id'=>$result['id']))}"><span id="Sue" msg="{:U('Event/Sue')}" class="ye-b">起诉</span></a>
+                <span id="ToSave"  msg="{:U('Event/ToSave')}" class="ye-b">发起保全令</span>
+            </div>
+            <elseif  condition="$result['save_state'] eq '2'" />
+               <div class="c-btn">
+
+                <span class="no-b">审核中(双方均已缴纳保证金)</span>
+            </div>
+            <elseif condition="$result['save_state'] eq '1'" />
+            <div class="c-btn">
+
+                <span class="no-b">待接保全令，已缴纳保证金</span>
+                <span style="color: red">若对方于{$result.expiry_date|date="Y-m-d，H:i:s",###}前未接受保全令，则该案件将自动删除，保全令押金将自动返还账户</span>
+            </div>
+            <else />
+                <div class="c-btn">
+
+                <span class="no-b">已起诉，等待平台审核</span>
+            </div>
+        </if>
+        <div style="font-size: 13px;line-height: 28px;"><span style="color: red">保全令功能说明：</span>
+            <p>1.被举报人如果认为有人故意抹黑，毁坏自己的名声，可以发出保全令，有保全金额押金，如果举报人坚信自己证据确凿没有故意抹黑，可以接保全令，需要缴纳同等金额的押金。</p>
+            <p>2.进入起诉阶段，双方都一致同意如果败诉，除法院判决偿还金额外，还需把自己的押金补偿给胜方。</p>
+            <p>3.保全令一出举报信息进入隐藏状态。如果举报方三天内不接保全令，举报信息自动被删除。如果接令，等法院判决后再决定要不要显示。</p>
+            <p>4.或者被举报人不接令直接起诉，如果有起诉书，平台也会先隐藏。</p></div>
+        </div>
+    </section>
+
+
+
+
+
+
+<include file="Public/footer" />
+
+<script type="text/javascript">
+    
+    $(function(){
+        function tip(msg){
+                $(".modal-body").html(msg);
+                $('#tip').modal('toggle');
+            }
+        $("#ToSave").click(function(){
+            var msg="发起保全令需要缴纳保证金{$Think.config.save_money}元，请保证账号余额充足。若胜诉则返还保证金";
+           
+            if(confirm(msg)==true){
+                var url=$("#ToSave").attr("msg");
+                var id=$("input[name='event_id']").val();
+                $.ajax({
+                    type:'post',
+                    url:url,
+                    data:{id:id},
+                    async:false,
+                    success:function(c){
+                   
+                        if(c.code==2){
+                            tip(c.msg);
+                            // window.location.href="/index.php/User/UserPay.html";
+                        }else{
+                            alert(c.msg);
+                            window.location.reload();
+                        }
+                        
+                    }
+                })
+            }else{
+                return false;
+            }
+
+        })
+        $("#tourl").on('click',function(){
+            window.location.href="/index.php/User/UserPay.html";
+        })
+    })
+
+</script>

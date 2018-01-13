@@ -1,0 +1,135 @@
+<include file="Public/header" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/report-ix-detail.css">
+
+    <section class="report-content">
+        <div class="container">
+            <h1>
+                {$result.title}
+              
+            </h1>
+            <div class="titel">
+                <span class="p1">
+                    被赞扬人：
+                    <span>{$result.bereport}</span>
+                </span>
+                <if condition="$result.becard neq ''">
+                    <span class="p2">
+                    身份证号：
+                    <span>{$result.becard|substr=0,6}****{$result.becard|substr=-4}</span>
+                </span>
+                </if>
+              <!--   <span class="p2">
+                    籍贯：
+                    <span>{$result.native_place}</span>
+                </span> -->
+                <span class="p3">
+                    {$result.addtime|date="Y-m-d",###}
+                </span>
+            </div>
+            <div class="content clear">
+                <!-- <p>尽管有多位投资者称陈利敏为合米金服的幕后老板，但独角金融发现，合米金服股东及高管名单多次变动，其中并没有陈利敏的身影。</p>
+                <p>第一次发生股权变更时是2015年12月8日，在原股东王哲，及王哲控股的上海承义投资中心的基础上增加了宁波同岳投资管理有限公司；2016年7月14日 以上各股东全部退出，新法人代表方盛、上海元纲电子科技有限公司进入。2017年1月12日方盛、上海元纲电子科技有限公司退出，股权变更为杭州原米信息科技有限公司。虽未找到陈利敏的备案，但诺威律师事务所杨兆全律师对独角金融表示，高管人员的名单及他们的身份证号、住址等详细信息，都会在公司登记时备案，但“老板”不属于法律概念。另有投资者认为，陈利敏只是傀儡，平台的老板另有其人。独角金融未能联系到陈利敏求证。
+                </p> -->
+                {$result.content|htmlspecialchars_decode=###}
+                <span class="p4">
+                    发布人：
+                    <span>{$result.report_id|get_user_byid=###}</span>
+                </span>
+
+            </div>
+
+            <!-- 浏览 -->
+          
+
+            <!-- 评论 -->
+            <div class="comt">
+                <h1>评论</h1>
+                <div class="comt-cont">
+                    <h2>热门评论</h2>
+
+                    <!-- 列表 -->
+                    <foreach name="list" item="vo">
+                    <div class="ct-item">
+                        <div class="ct-tit">
+                            <i></i>
+                            <span>{$vo.user_id|get_user_byid=###|substr_replace=###,' *',3,9}</span>
+                        </div>
+                        <div class="cont">
+                            <p>{$vo.content}</p>
+                        </div>
+                    </div>
+                   
+                    </foreach>
+
+
+                    <!-- 列表底部 -->
+                    <div class="ct-foo">
+                        {$page}
+                    </div>
+
+
+                    <!-- item -->
+                </div>
+
+                <if condition="$Think.session.user_id neq ''">
+                <!-- 文本框 -->
+                <div class="ct-text">
+                    <form action="{:U('Praise/Comment')}" method="post" id="commentform">
+                        <textarea name="content" id="content" placeholder="请输入内容"></textarea>
+                        <input type="hidden" name="event_id" value="{$result.id}">
+                        <input type="submit" id="g-btn" value="发布">
+                    </form>
+                </div>
+                <else />
+                <div class="ct-text">
+                   请先<a href='/index.php/Login/index.html'> 登录 </a>或<a href='/index.php/Register/index.html'> 注册 </a>后发表评论
+                </div>
+            </if>
+                <!-- comt -->
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+<include file="Public/footer" />
+<script type="text/javascript">
+    $(function(){
+        
+
+        $("#commentform").submit(function(){
+           
+            var content=$("#content").attr("value");
+            if(content==''){
+                alert('请输入内容');
+                return false;
+            }else{
+                var datas=$("#commentform").serialize();
+                var url=$(this).attr('action');
+                $.ajax({
+                    type:'post',
+                    url:url,
+                    data:datas,
+                    async:false,
+                    dataTpye:'json',
+                    success:function(msg){
+                        if(msg.code==1){
+                            alert(msg.msg);
+                            window.location.reload();
+                        }else{
+                            alert(msg.msg);
+                        }
+                        
+                    }
+                })
+            }
+            
+            return false;
+        })
+    })
+
+</script>

@@ -1,0 +1,326 @@
+﻿
+<!--头部文件-->
+<include file="Public/header"/>
+<!--头部文件结束-->
+
+<div class="wrapper">
+
+    <!--左侧菜单栏-->
+    <include file="Public/menu"/>
+    <!--左侧菜单栏结束-->
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+				<div class="navbar-minimize">
+					<button id="minimizeSidebar" class="btn btn-warning btn-fill btn-round btn-icon">
+						<i class="fa fa-ellipsis-v visible-on-sidebar-regular"></i>
+						<i class="fa fa-navicon visible-on-sidebar-mini"></i>
+					</button>
+				</div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">首页展示</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header text-center">
+                                <h4 class="title">轮播图管理</h4>
+                        
+                                <br/>
+                                <!-- <input id="add_logo_button" type="button" value="添加图片"> -->
+                            </div>
+                            <div class="content table-responsive table-full-width">
+
+                                <table id="bootstrap-table" class="table">
+                                    <thead>
+                                    <th class="text-center">展示图</th>
+                                    <th data-sortable="true" class="text-center">位置</th>
+                                    <th data-sortable="true" class="text-center">是否展示</th>
+                                    <th data-sortable="true" class="text-center">上传时间</th>
+                                    <th data-sortable="true" class="text-center">链接地址</th>
+                                  <!--   <th data-sortable="true" class="text-center">开始展示时间</th>
+                                    <th class="text-center">已持续展示</th>
+                                    <th class="text-center">状态</th> -->
+                                    <th class="td-actions text-center" data-events="operateEvents" data-formatter="operateFormatter">管理</th>
+                                    </thead>
+                                    <tbody>
+                                    <foreach name="logos" item="v">
+                                        <tr align="center">
+                                            <td style="width:17%;padding:4px 0;">
+                                                <div class="img-container" style="height:70px;">
+                                                    <img src="__ROOT__/{$v['image']}" style="height:100%;width:85%;">
+                                                </div>
+                                            </td>
+                                            <td>{$v.position}</td>
+                                            <td>{$v.is_see|get_see_state=###}</td>
+                                            <td>{$v.addtime|date='Y-m-d',###}</td>
+                                            <td>{$v.address}</td>
+                                           <!--  <if condition="$v['recently_time']==0">
+                                                <td class="recently_time" data-id="{$v.id}" style="color:#ccc">&#45;&#45;</td>
+                                                <else/>
+                                                <td class="recently_time" data-id="{$v.id}">{$v.recently_time}</td>
+                                            </if>
+
+                                            <if condition="$v['recently_time']==0">
+                                                <td class="now_time" style="color:#ccc" data-id="{$v.id}">&#45;&#45;</td>
+                                                <else/>
+                                                <td class="now_time" data-id="{$v.id}">{$v.now_time}</td>
+                                            </if>
+
+                                            <if condition="$v['state']==1">
+                                                <td class="state" style="color:greenyellow" data-id="{$v.id}">展示中</td>
+                                                <else/>
+                                                <td class="state" style="color:#ccc" data-id="{$v.id}">未展示</td>
+                                            </if>
+ -->
+                                            <td class="effect td-actions">
+                                          
+                                            <a href="{:U('Index/edit',array('id'=>$v['id']))}"><img src="__ROOT__/public/img/effect/update.png"  alt="查看" title="查看"></a>&nbsp;&nbsp;
+                                            <!-- <img class="successful_delete" data-state="{$v.state}" data-id="{$v.id}" data-src="__APP__/Successful/get_recycle/id/{$v.id}.html" src="__ROOT__/public/img/effect/delete.png" alt="放入回收站" title="放入回收站"> -->
+                                
+                                            </td>
+                                        </tr>
+                                    </foreach>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><!--  end card  -->
+                    </div> <!-- end col-md-12 -->
+                </div> <!-- end row -->
+
+            </div>
+        </div>
+
+<!--底部文件-->
+<include file="Public/footer"/>
+<!--底部文件结束-->
+
+    </div>
+</div>
+
+</body>
+    <!--   Core JS Files and PerfectScrollbar library inside jquery.ui   -->
+    <script src="__ROOT__/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="__ROOT__/public/js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="__ROOT__/public/js/bootstrap.min.js" type="text/javascript"></script>
+	<!--  Forms Validations Plugin -->
+	<script src="__ROOT__/public/js/jquery.validate.min.js"></script>
+	<!--  Plugin for Date Time Picker and Full Calendar Plugin-->
+	<script src="__ROOT__/public/js/moment.min.js"></script>
+    <!--  Date Time Picker Plugin is included in this js file -->
+    <script src="__ROOT__/public/js/bootstrap-datetimepicker.js"></script>
+    <!--  Select Picker Plugin -->
+    <script src="__ROOT__/public/js/bootstrap-selectpicker.js"></script>
+	<!--  Checkbox, Radio, Switch and Tags Input Plugins -->
+	<script src="__ROOT__/public/js/bootstrap-checkbox-radio-switch-tags.js"></script>
+	<!--  Charts Plugin -->
+	<script src="__ROOT__/public/js/chartist.min.js"></script>
+    <!--  Notifications Plugin    -->
+    <script src="__ROOT__/public/js/bootstrap-notify.js"></script>
+    <!-- Sweet Alert 2 plugin -->
+	<script src="__ROOT__/public/js/sweetalert2.js"></script>
+    <!-- Vector Map plugin -->
+	<script src="__ROOT__/public/js/jquery-jvectormap.js"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="__ROOT__/public/js/aa743e8f448a4792bad10d201a7080f6.js"></script>
+	<!-- Wizard Plugin    -->
+    <script src="__ROOT__/public/js/jquery.bootstrap.wizard.min.js"></script>
+	<!--  Bootstrap Table Plugin    -->
+	<script src="__ROOT__/public/js/bootstrap-table.js"></script>
+	<!--  Plugin for DataTables.net  -->
+	<script src="__ROOT__/public/js/jquery.datatables.js"></script>
+    <!--  Full Calendar Plugin    -->
+    <script src="__ROOT__/public/js/fullcalendar.min.js"></script>
+    <!-- Light Bootstrap Dashboard Core javascript and methods -->
+	<script src="__ROOT__/public/js/light-bootstrap-dashboard.js"></script>
+	<!--   Sharrre Library    -->
+    <script src="__ROOT__/public/js/jquery.sharrre.js"></script>
+	<!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+	<script src="__ROOT__/public/js/demo.js"></script>
+
+<script src="__ROOT__/public/js/new_js.js"></script>
+
+<!-- 自添js -->
+
+<!-- 图片预览 -->
+<script>
+    $('li.Index').addClass('active');
+    $(function(){
+        $('#load_img').on('change',function(){
+            var imgfile =this.files[0];
+            var fr= new FileReader();
+            fr.onload=function(){
+                $('#show_load_img').attr('src',fr.result);
+                $('#show_load_img').css({"width":"100px","height":"100px"});
+            }
+            fr.readAsDataURL(imgfile);
+        });
+    })
+</script>
+<script>
+    $('.content input').mouseover(function(){
+        $(this).css('background','#ccc');
+    })
+    $('.content input').mouseout(function(){
+        $(this).css('background','white');
+    })
+    $('#add_logo_button').click(function(){
+        $.ajax({
+            type:'post',
+            url:"__APP__/Index/is_ten",
+            data:'',
+            success:function(data){
+                if(data=='gt_ten'){
+                    One_button('保存图片已经达到10张，无法继续添加！');
+                }else{
+                    window.location.href='__APP__/Index/add_logo.html';
+                }
+            }
+        })
+    });
+    //改变状态点击事件
+    $('.fa-edit').click(function(){
+        var id=$(this).attr('data-id');
+        $.ajax({
+            type:'post',
+            url:"__APP__/Index/update_state",
+            data:'id='+id,
+            success:function(data){
+                if(data=='gt'){
+                    One_button('只能同时展示4张图片！');
+                }else if(data=='dowm'){
+                    $('.recently_time[data-id='+id+']').text('--').css('color','#ccc');
+                    $('.now_time[data-id='+id+']').text('--').css('color','#ccc');
+                    $('.state[data-id='+id+']').text('未展示').css('color','#ccc');
+                    $('.fa-times[data-id='+id+']').attr('is-state',0);
+                }else{
+                    $('.recently_time[data-id='+id+']').text(data).css('color','');
+                    $('.now_time[data-id='+id+']').text('1分钟').css('color','');
+                    $('.state[data-id='+id+']').text('展示中').css('color','greenyellow');
+                    $('.fa-times[data-id='+id+']').attr('is-state',1);
+                }
+            }
+        })
+    })
+
+    //删除事件
+    $('.fa-times').click(function(){
+        var id=$(this).attr('data-id');
+        var state=$(this).attr('is-state');
+        if(state==1){
+            One_button('展示中图片无法直接删除，请先停止展示！');
+        }else{
+            Double_button('确定删除该展示图吗？','__APP__/Index/delete_logo/id/'+id+'.html');
+        }
+    })
+</script>
+<!-- 原js，不做变动 -->
+    <script type="text/javascript">
+        $().ready(function(){
+
+            var $validator = $("#wizardForm").validate({
+    		  rules: {
+    		    email: {
+                    required: true,
+                    email: true,
+                    minlength: 5
+    		    },
+    		    first_name: {
+    		        required: false,
+                    minlength: 5
+    		    },
+    		    last_name: {
+    		        required: false,
+                    minlength: 5
+    		    },
+    		    website: {
+    		        required: true,
+                    minlength: 5,
+                    url: true
+    		    },
+    		    framework: {
+        		    required: false,
+        		    minlength: 4
+    		    },
+    		    cities: {
+        		    required: true
+    		    },
+    		    price:{
+        		    number: true
+    		    }
+    		  }
+    		});
+
+
+
+            // you can also use the nav-pills-[blue | azure | green | orange | red] for a different color of wizard
+
+            $('#wizardCard').bootstrapWizard({
+            	tabClass: 'nav nav-pills',
+            	nextSelector: '.btn-next',
+                previousSelector: '.btn-back',
+            	onNext: function(tab, navigation, index) {
+            		var $valid = $('#wizardForm').valid();
+
+            		if(!$valid) {
+            			$validator.focusInvalid();
+            			return false;
+            		}
+            	},
+                onInit : function(tab, navigation, index){
+
+                    //check number of tabs and fill the entire row
+                    var $total = navigation.find('li').length;
+                    $width = 100/$total;
+
+                    $display_width = $(document).width();
+
+                    if($display_width < 600 && $total > 3){
+                       $width = 50;
+                    }
+
+                    navigation.find('li').css('width',$width + '%');
+                },
+                onTabClick : function(tab, navigation, index){
+                    // Disable the posibility to click on tabs
+                    return false;
+                },
+                onTabShow: function(tab, navigation, index) {
+                    var $total = navigation.find('li').length;
+                    var $current = index+1;
+
+                    var wizard = navigation.closest('.card-wizard');
+
+                    // If it's the last tab then hide the last button and show the finish instead
+                    if($current >= $total) {
+                        $(wizard).find('.btn-next').hide();
+                        $(wizard).find('.btn-finish').show();
+                    } else if($current == 1){
+                        $(wizard).find('.btn-back').hide();
+                    } else {
+                        $(wizard).find('.btn-back').show();
+                        $(wizard).find('.btn-next').show();
+                        $(wizard).find('.btn-finish').hide();
+                    }
+                }
+
+            });
+
+        });
+
+        function onFinishWizard(){
+            //here you can do something, sent the form to server via ajax and show a success message with swal
+
+            swal("Good job!", "You clicked the finish button!", "success");
+        }
+    </script>
+
+</html>

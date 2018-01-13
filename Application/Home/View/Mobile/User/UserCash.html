@@ -1,0 +1,80 @@
+  
+<include file="Public/header" />
+   <link rel="stylesheet" href="__ROOT__/public/home/css/per-rec.css">
+    <section class="per-box">
+        <div class="center-element clear">
+            <!-- 左边 -->
+<!--    <include file="Public/UserMenu" />    -->     
+
+            <!-- 右边 -->
+         <article class="per-cont">
+                <div class="title">
+                    <span>提现</span>
+                </div>
+                <div class="cont-rec">
+                    <form action="{:U('User/Cash')}" method="post" id="Cashform">
+                        <div class="money cash-m">
+                            <span class="tx">提现金额：</span>
+                            <input type="text" class="cash" id="cash1" name="money" onkeyup='this.value=this.value.replace(/\D/gi,"")' value="" placeholder="请输入金额">
+                        </div>
+                        <div class="choice clear">
+                            <span class="tx">提现方式：</span>
+                            <div class="pay ">
+                                <input type="hidden" name="type" id="type">
+                                <span class="wx gr">微信提现</span>
+                                <span class="zf">支付宝提现</span>
+                            </div>
+                        </div>
+                        <div class="money cash-m">
+                            <span class="tx">提现账号：</span>
+                            <input type="text" class="cash" id="cash2" name="account" value="" placeholder="请输入账号">
+                        </div>
+
+                        <input class="qrc cab" type="submit" value="确认提现">
+
+                    </form>
+                </div>
+
+            </article>
+        </div>
+
+    </section>
+    <include file="Public/footer" />
+ <script>
+        $(function () {
+           
+
+            var $wx = $(".pay .wx");
+            var $zf = $(".pay .zf");
+            var $input = $(".pay #type");
+
+            $wx.click(function () {
+                $(this).addClass("gr");
+                $zf.removeClass("bl");
+                $input.val(1);
+                // console.log(  $input.val());
+            });
+
+            $zf.click(function () {
+                $(this).addClass("bl");
+                $wx.removeClass("gr");
+                $input.val(2);
+                // console.log(  $input.val());
+
+            });
+            $("#Cashform").submit(function(){
+              var datas=$("#Cashform").serialize();
+              var url=$(this).attr("action");
+              $.ajax({
+                type:'post',
+                url:url,
+                data:datas,
+                success:function(msg){
+                  alert(msg.msg);
+                }
+              })
+              return false;
+            })
+        })
+
+    </script>

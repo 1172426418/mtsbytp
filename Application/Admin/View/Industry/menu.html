@@ -1,0 +1,258 @@
+﻿<!--头部文件-->
+<include file="Public/header"/>
+<!--头部文件结束-->
+
+
+<div class="wrapper">
+    <!--左侧菜单栏-->
+    <include file="Public/menu"/>
+    <!--左侧菜单栏结束-->
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+				<div class="navbar-minimize">
+					<button id="minimizeSidebar" class="btn btn-warning btn-fill btn-round btn-icon">
+						<i class="fa fa-ellipsis-v visible-on-sidebar-regular"></i>
+						<i class="fa fa-navicon visible-on-sidebar-mini"></i>
+					</button>
+				</div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">分类管理</a>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="content">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="div_button">
+                        <input id="add_navigation_button" type="button" value="添加分类标签">
+                        <input class="button" id="industry_up" type="button" value="上线">
+                        <input class="button" id="industry_down" type="button" value="下线">
+                        <input class="button" id="industry_delete" type="button" value="删除">
+                        </div>
+
+                        <div class="card">
+                            <div class="toolbar">
+                                <!--        Here you can write extra buttons/actions for the toolbar              -->
+                            </div>
+
+                            <table id="bootstrap-table" class="table">
+                                <thead>
+                                <th data-field="state" data-checkbox="true" class="text-center">
+                                    <input id="user-check" type="checkbox">
+                                </th>
+                                <th data-field="name" data-sortable="true" class="text-center">分类标签</th>
+                                <th class="text-center">该分类下产品总数</th>
+                                <th class="text-center">该分类下在线产品总数</th>
+                                <th class="text-center">状态（是否使用）</th>
+                                <th data-field="actions" class="td-actions text-center" data-events="operateEvents" data-formatter="operateFormatter">管理</th>
+                                </thead>
+                                <tbody>
+                                <foreach name="navigation" item="v">
+                                    <tr align="center">
+                                        <td><input class="user-check" value="{$v.id}" type="checkbox"></td>
+                                        <td>{$v.menu}</td>
+                                        <td>{$v.num}</td>
+                                        <td>{$v.state_num}</td>
+                                        <td class="select-state" data-id="{$v.id}">
+                                        <if condition="$v['state']==1">
+                                                  <img src="__ROOT__/public/img/effect/checked.png">
+                                            <else/>
+                                                  <img src="__ROOT__/public/img/effect/unchecked.png">
+                                        </if>
+                                        </td>
+                                        <td class="effect">
+                                            <img class="industry_update" data-id="{$v.id}" src="__ROOT__/public/img/effect/update.png" alt="编辑" title="编辑">&nbsp;&nbsp;
+                                            <img class="industry_delete" data-state="{$v.state}" data-id="{$v.id}" data-src="__APP__/Industry/delete_menu/id/{$v.id}.html" src="__ROOT__/public/img/effect/delete.png" alt="删除" title="删除">
+                                        </td>
+                                    </tr>
+                                </foreach>
+                                <tr>
+                                    <td align="center" colspan="6" style="color:orange">
+                                        最多同时展示10条分类
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div><!--  end card  -->
+                    </div> <!-- end col-md-12 -->
+                </div> <!-- end row -->
+
+            </div>
+        </div>
+
+        <!--底部文件-->
+        <include file="Public/footer"/>
+        <!--底部文件结束-->
+
+
+    </div>
+</div>
+
+</body>
+
+    <!--   Core JS Files and PerfectScrollbar library inside jquery.ui   -->
+    <script src="__ROOT__/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="__ROOT__/public/js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="__ROOT__/public/js/bootstrap.min.js" type="text/javascript"></script>
+	<!--  Forms Validations Plugin -->
+	<script src="__ROOT__/public/js/jquery.validate.min.js"></script>
+	<!--  Plugin for Date Time Picker and Full Calendar Plugin-->
+	<script src="__ROOT__/public/js/moment.min.js"></script>
+    <!--  Date Time Picker Plugin is included in this js file -->
+    <script src="__ROOT__/public/js/bootstrap-datetimepicker.js"></script>
+    <!--  Select Picker Plugin -->
+    <script src="__ROOT__/public/js/bootstrap-selectpicker.js"></script>
+	<!--  Checkbox, Radio, Switch and Tags Input Plugins -->
+	<script src="__ROOT__/public/js/bootstrap-checkbox-radio-switch-tags.js"></script>
+	<!--  Charts Plugin -->
+	<script src="__ROOT__/public/js/chartist.min.js"></script>
+    <!--  Notifications Plugin    -->
+    <script src="__ROOT__/public/js/bootstrap-notify.js"></script>
+    <!-- Sweet Alert 2 plugin -->
+	<script src="__ROOT__/public/js/sweetalert2.js"></script>
+    <!-- Vector Map plugin -->
+	<script src="__ROOT__/public/js/jquery-jvectormap.js"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="__ROOT__/public/js/aa743e8f448a4792bad10d201a7080f6.js"></script>
+	<!-- Wizard Plugin    -->
+    <script src="__ROOT__/public/js/jquery.bootstrap.wizard.min.js"></script>
+	<!--  Bootstrap Table Plugin    -->
+	<script src="__ROOT__/public/js/bootstrap-table.js"></script>
+	<!--  Plugin for DataTables.net  -->
+	<script src="__ROOT__/public/js/jquery.datatables.js"></script>
+    <!--  Full Calendar Plugin    -->
+    <script src="__ROOT__/public/js/fullcalendar.min.js"></script>
+    <!-- Light Bootstrap Dashboard Core javascript and methods -->
+	<script src="__ROOT__/public/js/light-bootstrap-dashboard.js"></script>
+	<!--   Sharrre Library    -->
+    <script src="__ROOT__/public/js/jquery.sharrre.js"></script>
+	<!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+	<script src="__ROOT__/public/js/demo.js"></script>
+
+<script src="__ROOT__/public/js/new_js.js"></script>
+<script>
+    $('li.Industry').addClass('active');
+    $('a.Industry-a').attr('aria-expanded','true');
+    $('div.Industry-div').addClass('in');
+    $('li.Industry-menu').addClass('active');
+
+$('#add_navigation_button').mouseover(function(){
+    $(this).css('background','#ccc');
+})
+$('#add_navigation_button').mouseout(function(){
+    $(this).css('background','white');
+})
+
+
+$('#add_navigation_button').click(function(){
+    Update_button('创建标签');
+})
+
+$('.free_time .yes').click(function(){
+    var data=$('.data').val();
+    var id=$(this).attr('data-id');
+    if(data!=''){
+        if(id!=''){
+            $.ajax({
+                type:'post',
+                url:"__APP__/Industry/update_menu",
+                data:'menu='+data+'&id='+id,
+                success:function(data){
+                    if(data=='gt-len'){
+                        $('.free_time .no').click();
+                        One_button('标签名称不能超过5个汉字长度');
+                    }else if(data>0){
+                        window.location.reload();
+                    }
+                }
+            })
+        }else{
+            $.ajax({
+                type:'post',
+                url:"__APP__/Industry/add_menu",
+                data:'menu='+data,
+                success:function(data){
+                    if(data=='gt-len'){
+                        $('.free_time .no').click();
+                        One_button('标签名称不能超过5个汉字长度');
+                    }else if(data>0){
+                        window.location.reload();
+                    }
+                }
+            })
+        }
+    }
+})
+</script>
+
+<script>
+    $('#industry_up').click(function(){
+        $('.user-check:checked').each(function(){
+            var id=$(this).val();
+            $.ajax({
+                type:'post',
+                url:"__APP__/Industry/industry_up",
+                data:'id='+id+'&type=navigation',
+                success:function(data){
+                    if(data=='gt'){
+                        $('.cover').remove();
+                        One_button('展示标签已经达到10条');
+                        exit;
+                    }else if(data>0){
+                        $('.select-state[data-id='+id+'] img').attr('src','__ROOT__/public/img/effect/checked.png');
+                    }
+                }
+            })
+        })
+    })
+
+    $('#industry_down').click(function(){
+        $('.user-check:checked').each(function(){
+            var id=$(this).val();
+            $.ajax({
+                type:'post',
+                url:"__APP__/Industry/industry_down",
+                data:'id='+id+'&type=navigation',
+                success:function(data){
+                    if(data>0){
+                        $('.select-state[data-id='+id+'] img').attr('src','__ROOT__/public/img/effect/unchecked.png');
+                    }
+                }
+            })
+        })
+    })
+
+    //删除单个
+    $('.industry_delete').click(function(){
+        var url=$(this).attr('data-src');
+        Double_button('删除该分类会将该分类下的所有产品转入回收站！',url);
+    })
+
+    //删除多个
+    $('#industry_delete').click(function(){
+        var id = '';
+        $('.user-check:checked').each(function(){
+            id = id+','+$(this).val();
+        })
+        if(id != ''){
+            var url='__APP__/industry/delete_menu/id/'+id;
+            Double_button('删除这些分类会将分类下的所有产品转入回收站！',url);
+        }
+    })
+
+    //编辑页面
+    $('.industry_update').click(function(){
+        var id=$(this).attr('data-id');
+        $('.free_time .yes').attr('data-id',id);
+        Update_button('修改标签名称');
+    })
+</script>
+</html>

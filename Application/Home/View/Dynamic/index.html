@@ -1,0 +1,83 @@
+
+
+<!-- 公共头部开始 -->
+<include file="Public/header"/>
+    <!-- 公共头部结束 -->
+
+    <!-- 第一部分 -->
+    <section class="dynamic-sec">
+        <div class="container">
+            <h1 class="dc-title hidden-xs">公司动态 <span>company dynamic</span></h1>
+
+                <foreach name="dy" item="v">
+
+                    <div class="dc-lists ">
+                        <div class="media">
+
+                            <div class="media-left">
+                                <img class="media-object" src="__ROOT__/{$v.path}">
+                            </div>
+
+                            <div class="media-body">
+                                <h2 class="media-heading">{$v.title}</h2>
+                                <p class="dc-date">{$v.date}</p>
+                                <div class="clear"></div>
+                                <p id="onecol-point">{$v.profile}</p>
+                                <div class="dy-href hidden-xs">
+                                    <a href="__APP__/Dynamic/content/id/{$v.id}.html">
+                                        VIEW
+                                        <img src="__ROOT__/public/home/img/dynamic-arrow-r.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </foreach>
+
+            <!-- 分页 -->
+            <div class="pages hidden-xs">
+                <ul class="pager">
+                    <li><a href="__APP__/Dynamic/index/id/{$nowpage-1}.html">上一页</a></li>
+                    <for start="-3" end="0">
+                        <if condition="($nowpage+$i) gt 0">
+                            <li><a href="__APP__/Dynamic/index/id/{$nowpage+$i}.html">[{$nowpage+$i}]</a></li>
+                        </if>
+                    </for>
+                            <li><a id="now" href="javascript:" style="color:red">[{$nowpage}]</a></li>
+                    <for start="1" end="4">
+                        <if condition="($nowpage+$i) elt $pages">
+                            <li><a href="__APP__/Dynamic/index/id/{$nowpage+$i}.html">[{$nowpage+$i}]</a></li>
+                        </if>
+                    </for>
+                    <li><a href="__APP__/Dynamic/index/id/{$nowpage+1}.html">下一页</a></li>
+                    <li>当前页 <span>{$nowpage}/{$pages}</span> ，</li>
+                    <li>共<span>{$num}</span>条信息</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+<!-- 底部 -->
+<include file="Public/footer"/>
+
+</body>
+<script>
+    //$('.products').addClass('hoverClass');
+    (function () {
+        var win = document.documentElement.clientWidth;
+        if (win < 768) {
+            $(".carousel").empty();
+        }
+    }());
+    $('.dynamic').addClass('hoverClass');
+</script>
+</html>

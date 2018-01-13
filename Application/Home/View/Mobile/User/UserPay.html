@@ -1,0 +1,82 @@
+  
+<include file="Public/header" />
+   <link rel="stylesheet" href="__ROOT__/public/home/css/per-rec.css">
+    <section class="per-box">
+        <div class="center-element clear">
+         <article class="per-cont">
+                <div class="title">
+                    <span>充值</span>
+                </div>
+                <div class="cont-rec">
+                    <form action="{:U('User/UserRecharge')}"  method="post">
+                        <div class="choice clear">
+                            <span class="tx">充值方式：</span>
+                            <div class="pay ">
+                              <input type="hidden" name="body" value="用户充值">
+                              <input type="hidden" name="out_trade_no" value="{$out_trade_no}">
+                                <input type="hidden" id="mode">
+                                <span class="wx gr">微信支付</span>
+                                <span class="zf">支付宝支付</span>
+                            </div>
+                        </div>
+                        <div class="money">
+                            <span class="tx">充值金额：</span>
+                            <input type="text" id="sr" name="total_fee" value="" onkeyup='this.value=this.value.replace(/\D/gi,"")' placeholder="请输入金额">&nbsp;元
+                        </div>
+                       
+                        <input class="qrc" type="submit" value="确认充值">
+                       
+                    </form>
+                </div>
+
+            </article>
+        </div>
+
+    </section>
+        <include file="Public/footer" />
+            <script>
+        $(function () {
+            // $("#sr").keyup(function () {
+            //     var that = this;
+            //     var vl = $(that).val();
+
+            //     var reg = vl.replace(/[^1-9]/g, '');
+
+            //     if (!reg) {
+            //         $(that).val("必须是数字");
+            //         return false;
+            //     } else if (isNaN(vl)) {
+            //         $(that).val("必须是数字");
+            //         return false;
+            //     } else {
+            //         $(that).val(Math.abs(vl));
+            //     }
+            // })
+            $(".qrc").click(function(){
+                var money=$("input[name='total_fee']").val();
+                if(money=='' || money <= 0){
+                    alert('请输入金额');
+                    return false;
+                }
+            })
+            var $wx = $(".pay .wx");
+            var $zf = $(".pay .zf");
+            var $input = $(".pay #mode");
+
+            $wx.click(function () {
+                $(this).addClass("gr");
+                $zf.removeClass("bl");
+                $input.val(0);
+                // console.log(  $input.val());
+            });
+            
+            $zf.click(function () {
+                $(this).addClass("bl");
+                $wx.removeClass("gr");
+                $input.val(1);
+                // console.log(  $input.val());
+            
+            });
+        })
+
+    </script>

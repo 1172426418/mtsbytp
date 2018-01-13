@@ -1,0 +1,176 @@
+<head>
+	<title>底图iframe</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<style type="text/css">
+		html,body{
+		margin: 0;
+		padding: 0;
+		color: #FFF;
+		height: 100%; 
+		background-color: #eee;
+		}
+	</style>
+    <!--<script type="text/javascript" src="http://www.digitalwuhan.gov.cn/arcgis_js_api/3.13/init.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://www.digitalwuhan.gov.cn/arcgis_js_api/3.13/dijit/themes/tundra/tundra.css"/>
+    <link rel="stylesheet" type="text/css" href="http://www.digitalwuhan.gov.cn/arcgis_js_api/3.13/esri/css/esri.css" />-->
+	
+	<script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/nls/jsapi_zh-cn.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dojox/gfx/svg.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/dijit/OverviewMap.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/geometry.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/layers/WMTSLayer.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/layers/WMTSLayerInfo.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/toolbars/draw.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/locator.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/RouteTask.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/RouteParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/IdentifyTask.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/IdentifyResult.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/IdentifyParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/toolbars/edit.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/geometry/Circle.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/TrimExtendParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/BufferParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/AreasAndLengthsParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/LengthsParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/RelationParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/DensifyParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/GeneralizeParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/OffsetParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/DistanceParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/ProjectParameters.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/RouteResult.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/NAMessage.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/NAServiceDescription.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/AddressCandidate.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/NATypes.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/layers/ArcGISImageServiceLayer.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/virtualearth/VETiledLayer.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/toolbars/_toolbar.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/toolbars/_Box.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/toolbars/_GraphicMover.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/toolbars/_VertexEditor.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/toolbars/TextEditor.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/tasks/DirectionsFeatureSet.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dojox/gfx/Moveable.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dojox/gfx/Mover.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/Menu.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/MenuItem.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/toolbars/_VertexMover.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/_Contained.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/DropDownMenu.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/_MenuBase.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/_KeyNavContainer.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/_KeyNavMixin.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/PopupMenuItem.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/CheckedMenuItem.js"></script><script type="text/javascript" charset="utf-8" src="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/MenuSeparator.js"></script><script type="text/javascript" src="http://digitalwuhan.gov.cn/whemap/"></script><link rel="stylesheet" type="text/css" href="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/dijit/themes/tundra/tundra.css"><link rel="stylesheet" type="text/css" href="http://digitalwuhan.gov.cn/whemap/arcgis/3.14/esri/css/esri.css"><link rel="stylesheet" type="text/css" href="http://digitalwuhan.gov.cn/whemap/emap/css/whemap.css">
+</head>
+
+<body style="width:1500px;">
+	<div id="divMap" style="width:1800px; height:100%;margin-left:-100px "><div id="mapMain1" class="map" data-zoom="10" data-scale="1127.23386" data-loaded="" style="height: 100%; left: -50px; right: 0px; position: relative; width: 1500px; background: rgba(0, 0, 0, 0) url(&quot;http://digitalwuhan.gov.cn/whemap/emap/images/mapBackGround-sd.png&quot;) repeat scroll 0% 0%;"><div id="mapMain1_root" style="width: 1500px; height: 1200px; direction: ltr;" class="container"><div id="mapMain1_container" style="position: absolute; cursor: default; -moz-user-select: none; clip: auto;" class="container"><div id="mapMain1_layers" class="layersDiv" style="left: 0px; top: 0px;"><div style="position: absolute; width: 1500px; height: 1200px; overflow: visible; transform: translate3d(-1526px, 3158px, 0px); display: block;" id="mapMain1_dciBaseMapID"><div style="position: absolute; width: 1500px; height: 1200px; overflow: visible; transition: -moz-transform 500ms ease 0s;"><img id="mapMain1_dciBaseMapID_tile_10_0_10" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2282px, -3032px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538096/749124"><img id="mapMain1_dciBaseMapID_tile_10_0_11" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2538px, -3032px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538096/749125"><img id="mapMain1_dciBaseMapID_tile_10_0_9" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2026px, -3032px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538096/749123"><img id="mapMain1_dciBaseMapID_tile_10_1_9" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2026px, -2776px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538097/749123"><img id="mapMain1_dciBaseMapID_tile_10_1_10" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2282px, -2776px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538097/749124"><img id="mapMain1_dciBaseMapID_tile_10_1_11" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2538px, -2776px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538097/749125"><img id="mapMain1_dciBaseMapID_tile_10_2_9" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2026px, -2520px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538098/749123"><img id="mapMain1_dciBaseMapID_tile_10_2_10" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2282px, -2520px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538098/749124"><img id="mapMain1_dciBaseMapID_tile_10_2_11" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2538px, -2520px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538098/749125"><img id="mapMain1_dciBaseMapID_tile_10_3_9" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2026px, -2264px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538099/749123"><img id="mapMain1_dciBaseMapID_tile_10_3_10" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2282px, -2264px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538099/749124"><img id="mapMain1_dciBaseMapID_tile_10_3_11" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2538px, -2264px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538099/749125"><img id="mapMain1_dciBaseMapID_tile_10_0_8" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1770px, -3032px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538096/749122"><img id="mapMain1_dciBaseMapID_tile_10_1_8" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1770px, -2776px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538097/749122"><img id="mapMain1_dciBaseMapID_tile_10_2_8" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1770px, -2520px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538098/749122"><img id="mapMain1_dciBaseMapID_tile_10_3_8" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1770px, -2264px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538099/749122"><img id="mapMain1_dciBaseMapID_tile_10_0_7" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1514px, -3032px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538096/749121"><img id="mapMain1_dciBaseMapID_tile_10_1_7" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1514px, -2776px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538097/749121"><img id="mapMain1_dciBaseMapID_tile_10_2_7" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1514px, -2520px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538098/749121"><img id="mapMain1_dciBaseMapID_tile_10_3_7" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1514px, -2264px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538099/749121"><img id="mapMain1_dciBaseMapID_tile_10_4_7" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1514px, -2008px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538100/749121"><img id="mapMain1_dciBaseMapID_tile_10_4_8" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1770px, -2008px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538100/749122"><img id="mapMain1_dciBaseMapID_tile_10_4_9" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2026px, -2008px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538100/749123"><img id="mapMain1_dciBaseMapID_tile_10_4_10" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2282px, -2008px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538100/749124"><img id="mapMain1_dciBaseMapID_tile_10_4_11" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2538px, -2008px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538100/749125"><img id="mapMain1_dciBaseMapID_tile_10_0_12" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2794px, -3032px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538096/749126"><img id="mapMain1_dciBaseMapID_tile_10_1_12" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2794px, -2776px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538097/749126"><img id="mapMain1_dciBaseMapID_tile_10_2_12" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2794px, -2520px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538098/749126"><img id="mapMain1_dciBaseMapID_tile_10_3_12" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2794px, -2264px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538099/749126"><img id="mapMain1_dciBaseMapID_tile_10_4_12" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2794px, -2008px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538100/749126"><img id="mapMain1_dciBaseMapID_tile_10_-1_7" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1514px, -3288px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538095/749121"><img id="mapMain1_dciBaseMapID_tile_10_-1_8" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(1770px, -3288px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538095/749122"><img id="mapMain1_dciBaseMapID_tile_10_-1_9" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2026px, -3288px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538095/749123"><img id="mapMain1_dciBaseMapID_tile_10_-1_10" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2282px, -3288px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538095/749124"><img id="mapMain1_dciBaseMapID_tile_10_-1_11" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2538px, -3288px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538095/749125"><img id="mapMain1_dciBaseMapID_tile_10_-1_12" class="layerTile" style="width: 256px; height: 256px; visibility: visible; transform: translate3d(2794px, -3288px, 0px);" src="http://116.211.137.33:8010/ServiceAdapter/MAP/%E7%94%B5%E5%AD%90%E5%9C%B0%E5%9B%BE/07769b53b5243b7d6aea9df803f471c1/tile/10/538095/749126"></div></div><div style="position: absolute; width: 1500px; height: 1200px; overflow: visible; opacity: 1; transform: translate3d(-1526px, 3158px, 0px); display: block;" id="mapMain1_layer0"><img id="mapMain1_layer0_1510722295415" style="position: absolute; width: 1500px; height: 1200px; transform: translate3d(1526px, -3158px, 0px); transition: -moz-transform 500ms ease 0s;" src="http://116.211.137.33:8010/ServiceAdapter/Map/高层建筑/d3102f564751a42ed551f2c551804840/export?dpi=96&amp;transparent=true&amp;format=png8&amp;layers=show%3A0&amp;bbox=114.38060190069197%2C30.51591665538931%2C114.38462521421346%2C30.5191353062065&amp;bboxSR=4490&amp;imageSR=4490&amp;size=1500%2C1200&amp;f=image"></div><svg overflow="hidden" height="1200" style="overflow: visible; position: absolute;" id="mapMain1_gc" width="1500"><defs></defs><g id="mapMain1_graphics_layer" transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,-1764.00000000,195.00000000)" style="display: block;"><g></g></g></svg></div></div><div class="esriControlsBR"><span class="esriAttribution" style="max-width: 675px; cursor: default;"><span class="esriAttributionList"></span></span></div><div class="esriPopup" style="visibility: hidden; z-index: 40;"><div class="esriPopupWrapper" style="position: absolute;"><div class="sizer"><div class="titlePane" style="-moz-user-select: none;"><div class="spinner hidden" title="正在搜索..."></div><div class="title"></div><div class="titleButton prev hidden" title="上一个要素"></div><div class="titleButton next hidden" title="下一个要素"></div><div class="titleButton maximize" title="最大化"></div><div class="titleButton close" title="关闭"></div></div></div><div class="sizer content"><div class="contentPane"></div></div><div class="sizer"><div class="actionsPane"><div class="actionList hidden"><a title="缩放至" class="action zoomTo" href="javascript:void(0);"><span>缩放至</span></a></div></div></div><div class="pointer hidden"></div></div><div class="outerPointer hidden"></div></div></div><div class="toolBar" style="cursor: default;"><div class="toolBar_button"><div id="mapMain1_button_north" title="向上平移" class="toolBar_button_north"></div><div id="mapMain1_button_west" title="向左平移" class="toolBar_button_west"></div><div id="mapMain1_button_center" title="查看全图" class="toolBar_button_center"></div><div id="mapMain1_button_east" title="向右平移" class="toolBar_button_east"></div><div style="clear: both;"></div><div id="mapMain1_button_south" title="向下平移" class="toolBar_button_south"></div></div><div class="toolBar_slider"><div id="mapMain1_slider_zoomIn" title="放大一级" class="toolBar_slider_zoomIn"></div><div id="mapMain1_slider_ticks" title="缩放到此级别" style="height: 66px;" class="toolBar_slider_ticks"><div id="mapMain1_slider_ticksSel" title="缩放到此级别" style="height: 56px;" class="toolBar_slider_ticksSel"></div><div id="mapMain1_slider_float" title="拖动缩放" class="toolBar_slider_float_nonactivated" style="bottom: 56px;"></div></div><div id="mapMain1_slider_zoomOut" title="缩小一级" class="toolBar_slider_zoomOut"></div></div><div id="mapMain1_mark" style="display: none;" class="toolBar_mark"></div></div></div></div>
+	<script type="text/javascript">
+		var map;
+        dojo.ready(function () {
+            WHEMapInit.mapInitParams.showMapControl = 1;
+            map = new WHEMap("divMap", WHEMapInit.mapInitParams); //创建一个地图实例
+            //var url = "http://116.211.137.33:8010/ServiceAdapter/Map/高层建筑/f4f190a1711e2535c4bff96079561e8f";
+            var url = "http://116.211.137.33:8010/ServiceAdapter/Map/高层建筑/d3102f564751a42ed551f2c551804840";
+			var id = "0";
+            if (url != "") {
+                loadMap(id, url, "0");
+            }
+        })
+
+	
+	    //loadBaseMap();
+	    /* 加载示例
+	    *  参数1：服务类型type: 动态地图服务 or 瓦片地图服务
+	    *  参数2：服务地址url: http:……MapServer/1
+	    *  底图：http://server183.whonemap.wpl:8399/arcgis/rest/services/Tile/WHemapBJ54/MapServer
+	    *  示例1：http://192.168.7.155:8013/?type=动态地图服务&url=http://192.168.0.199:8399/arcgis/rest/services/SHCXGL/jiexian/MapServer/1
+	    *  示例2：http://192.168.7.155:8013/?type=瓦片地图服务&url=http://192.168.0.242:6080/arcgis/rest/services/BaseGeography/2014年卫星影像/MapServer
+	    */
+
+	    function loadBaseMap() {
+	        dojo.addOnLoad(init);
+	        function init() {
+	            var datatype = "ArcGIS REST Dynamic";
+	            var dataServiceUrl = "http://116.211.137.33:8010/ServiceAdapter/Map/高层建筑/d3102f564751a42ed551f2c551804840";
+	            //获取网页传入参数
+//	            var docUrl = "/?type=ArcGIS REST Dynamic&url=http://116.211.137.33:8010/ServiceAdapter/Map/高层建筑/d3102f564751a42ed551f2c551804840";
+//	            var mapUrl = "";
+//	            var para = "";
+//	            var options = {};
+//	            var visible = [];
+//	            if (docUrl.lastIndexOf("?") > 0) {
+//	                para = docUrl.substring(docUrl.lastIndexOf("?") + 1, docUrl.length);
+//	                var arr = para.split("&");
+//	                keyValues = ["type", "url", "layerid"];
+//	                for (var i = 0; i < arr.length; i++) {
+//	                    if (keyValues.indexOf(arr[i].split("=")[0]) >= 0) {
+//	                        options[arr[i].split("=")[0]] = arr[i].split("=")[1];
+//	                    }
+//	                }
+//	            }
+//	            else {
+//	                console.log("没有参数!");
+//	                options["type"] = "瓦片地图服务";
+//	                options["url"] = "http://www.digitalwuhan.gov.cn:8399/arcgis/rest/services/TDT/TDT201507/MapServer";
+//	                //	                options["url"] = "http://192.168.0.157:6080/arcgis/rest/services/EMAP_CGCS2000_20150828/MapServer";
+//	            }
+	            //创建map
+	            var myMap = null;
+	            require(["esri/map",
+      "esri/geometry/Extent"],
+      function (Map, Extent) {
+          //myMap = new Map("divMap", { logo: false, zoom: 2, sliderStyle: "small" });
+          myMap = new Map("divMap", {
+              logo: false,
+              zoom: 2,
+              sliderStyle: "small",
+              extent: new Extent({ xmin: 114.320, ymin: 30.695, xmax: 114.320, ymax: 30.595, spatialReference: { wkid: 4490} })
+              //center: [114.320, 30.480]
+          });
+      });
+	            var baseLayer;
+	            //解析url
+//	            para = options["url"];
+//	            if (para.lastIndexOf("MapServer") > 0) {
+//	                mapUrl = para.substring(0, para.lastIndexOf("MapServer") + 9);
+//	                visible = para.substring(para.lastIndexOf("MapServer") + 10, para.length);
+//	            }
+	            //加载layer
+	            //http: //www.digitalwuhan.gov.cn:8399/arcgis/rest/services/TDT/TDT201507/MapServer
+                if (datatype === "ArcGIS REST Tiled") {
+                    baseLayer = new esri.layers.ArcGISTiledMapServiceLayer(dataServiceUrl);
+	                //var baseLayer = new esri.layers.ArcGISTiledMapServiceLayer("http://www.digitalwuhan.gov.cn:8399/arcgis/rest/services/TDT/TDT201507/MapServer");
+	                myMap.addLayer(baseLayer);
+	            }
+	            else if (datatype === "ArcGIS REST Dynamic") {
+	                baseLayer = new esri.layers.ArcGISDynamicMapServiceLayer(dataServiceUrl);
+	                //var baseLayer = new esri.layers.ArcGISTiledMapServiceLayer("http://www.digitalwuhan.gov.cn:8399/arcgis/rest/services/TDT/TDT201507/MapServer");
+	                myMap.addLayer(baseLayer);
+	            }
+	            else console.log("type参数错误!");
+	            //控制显示图层
+                if (baseLayer.loaded) {
+	                ControlVisable();
+	            }
+	            else {
+                    dojo.connect(baseLayer, "onLoad", ControlVisable);
+	            }
+	            function ControlVisable() {
+
+	                myMap.addLayer(baseLayer);
+//	                if (options["type"] === "ArcGIS REST Dynamic" || visible === undefined) {
+//	                    //myMapServiceLayer.isOperationalLayer = true;
+//	                    myMap.addLayer(myMapServiceLayer);
+//	                }
+//	                else {
+//	                    visible = visible.split(",");
+//	                    myMapServiceLayer.setVisibleLayers(visible);
+//	                    //myMapServiceLayer.isOperationalLayer = true;
+//	                    myMap.addLayer(myMapServiceLayer);
+//	                }
+
+	            }
+	        }
+	    }
+	</script>
+	<script type="text/javascript">
+        var visid = 1;
+        function loadMap(id, url, vis) {
+            var datatype = "ArcGIS REST Dynamic";
+            var layer;
+            var visibles = new Array();
+            visibles = ["0"];
+            id = "layer" + id;
+            var oldLayer;
+            if (1 == 1) {
+                if (datatype == "ArcGIS REST Dynamic") {
+                    layer = map.setLayer(id, url, 2);
+                } else {
+                    layer = map.setLayer(id, url, 1);
+                }
+                if (oldLayer != undefined) {
+                    map.removeLayer(oldLayer);
+                }
+                oldLayer = layer;
+                visid = visid + 1;
+                if (layer.loaded) {
+                    visibles = layer.visibleLayers;
+                    if (visibles.length <= 0) {
+                        visibles = ["0"];
+                    }
+                    layer.setVisibleLayers(visibles);
+                    map.addLayer(layer, visid);
+                } else {
+                    dojo.connect(layer, "onLoad", function () {
+                        visibles = layer.visibleLayers;
+                        if (visibles.length <= 0) {
+                            visibles = ["0"];
+                        }
+                        layer.setVisibleLayers(visibles);
+                        map.addLayer(layer, visid);
+                    });
+                }
+            } else {
+                layer = map.getLayer(id);
+                layer.setVisibleLayers(visibles);
+            }
+        }
+    </script>
+
+
+</body>

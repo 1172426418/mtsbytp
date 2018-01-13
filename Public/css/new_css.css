@@ -1,0 +1,142 @@
+/* 查询与功能按钮样式 */
+.div_button select{
+    width:10%;
+    height:30px;
+    border:1px solid #ccc;
+    padding-left:0.5%;
+}
+.div_button .search{
+    width:13%;
+    height:29px;
+    padding-left:0.5%;
+}
+.div_button .search_button{
+    width:6%;
+    height:30px;
+    background:#ccc;
+    border:1px solid #999;
+    margin-left:0.5%;
+}
+.div_button .button{
+    width:7%;
+    height:30px;
+    background:white;
+    border:1px solid #999;
+    margin-left:0.5%;
+}
+
+
+/* 首页展示添加展示图按钮样式 */
+#add_logo_button{
+    width:11%;
+    height:35px;
+    font-size:16px;
+    margin-bottom:5px;
+    float:left;
+    background:white;
+    border:1px solid #999;
+}
+
+.info_category{
+    width:10%;
+    height:35px;
+    font-size:15px;
+    margin-bottom:5px;
+    margin-left:15px;
+    float:left;
+    background:#FFA534;
+    border:1px solid #FFA534;
+}
+
+/* LOGO图上传页面按钮 */
+#button_yes{
+    width:100px;
+    margin-left:17%;
+}
+#button_no{
+    width:100px;
+    margin-left:5%;
+}
+
+/* 添加分类标签按钮 */
+#add_navigation_button{
+    width:10%;
+    height:30px;
+    margin-bottom:8px;
+    background:white;
+    border:1px solid #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  遮罩层 */
+.cover{
+    position:fixed;
+    background:black;
+    opacity:0.4;
+    z-index:9995;
+}
+/*  双按钮提示信息  */
+#header-success1,#header-success2,.free_time{
+    margin:0;
+    padding:0;
+    position:fixed;
+    z-index: 9996;
+    width:300px;
+    height:120px;
+    background:orange;
+    border-radius:20px;
+    box-shadow:7px 7px 10px black;
+    display:none;
+}
+#header-success1 h1,#header-success2 h1,.free_time h1{
+    padding:10px 0 0 0;
+    margin:0;
+    text-align:center;
+    color:black;
+    font-size:19px;
+    line-height:30px;
+    font-weight:600;
+}
+#header-success1 div,#header-success2 div,.free_time div{
+    position: absolute;
+    bottom:10px;
+    left:45px;
+}
+#header-success1 input,#header-success2 input,.free_time input{
+    color:#333333;
+    background:white;
+    border:1px solid #999999;
+    width:100px;
+    height:30px;
+}
+
+/*  单按钮提示信息  */
+#header-success2 div{
+    position: absolute;
+    bottom:10px;
+    left:100px;
+}
+
+
+.photo  img{
+    transform: scale(1.1);
+    margin-top: 3px;
+    width: 86px;
+    height: 69px;
+}
+
+#men-left[data-color="orange"]:after, .bootstrap-navbar[data-color="orange"]:after{
+background:linear-gradient(to bottom, #787878 0%, rgba(52, 52, 52, 0.7) 100%)
+
+
+}

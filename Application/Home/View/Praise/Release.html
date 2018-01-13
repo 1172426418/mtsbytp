@@ -1,0 +1,132 @@
+
+<include file="Public/header" />
+    <script type="text/javascript" charset="utf-8" src="__ROOT__/public/doc/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__ROOT__/public/doc/ueditor.all.min.js"> </script>
+    <link rel="stylesheet" href="__ROOT__/public/home/css/release-form.css">
+<section class="rlease-form">
+        <div class="container">
+            <form id="regForm" class="form-horizontal" action="{:U('Praise/ReleasePraise')}" method="post">
+              
+                    <div class="form-group">
+                        <label class="control-label col-lg-2 col-xs-3" for="">标题：</label>
+                        <div class="input-group col-lg-6 col-xs-8">
+                            <input class="form-control" type="text" name="title"  msg="标题" placeholder="请输入标题（必填）">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-lg-2 col-xs-3" for="">姓名：</label>
+                        <div class="input-group col-lg-6 col-xs-8" id="ap">
+                            <input class="form-control" type="text" name="bereport"  msg="姓名" placeholder="请输入被表扬人姓名（必填）">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-lg-2 col-xs-3" for="">手机：</label>
+                        <div class="input-group col-lg-6 col-xs-8">
+                            <input class="form-control" type="text" name="betel" onkeyup='this.value=this.value.replace(/\D/gi,"")' msg="手机号" placeholder="请输入被表扬人手机（必填）">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-lg-2 col-xs-3" for="">身份证号：</label>
+                        <div class="input-group col-lg-6 col-xs-8">
+                            <input class="form-control" type="card" name="becard"  msg="身份证号" placeholder="请输入被表扬人身份证号">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-lg-2 col-xs-3" for="">邮箱：</label>
+                        <div class="input-group col-lg-6 col-xs-8">
+                            <input class="form-control" type="email" name="email"  msg="邮箱" placeholder="请输入被表扬人邮箱">
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label class="control-label col-lg-2 col-xs-3" for="">内容：</label>
+                        <div class="input-group col-lg-6 col-xs-8">
+                            <textarea class="form-control visible-xs-block" name="content" placeholder="请输入内容"></textarea>
+                            <div class="hidden-xs input-group  col-sm-10" >
+                              
+                         
+                            <script name='content' id="editor" type="text/plain" style="width:110%;height:500px;"></script>
+                                                <script type="text/javascript">
+                                                var ue = UE.getEditor('editor');
+                                                </script>
+                                                   </div>
+                        </div>
+                    </div>
+                    <if condition="$Think.config.praise_money neq '0'">
+                     <div class="form-group">
+                        <label class="control-label col-lg-2 col-xs-3" for="">备注：</label>
+                        <div class="input-group col-lg-9 col-xs-8">
+                            <p style="color:red;margin-top: 5px;">请注意，每条表扬会收取{$Think.config.praise_money}元的手续费,请务必保证账号余额充足</p>
+                        </div>
+                    </div>
+                  </if>
+                    <div class="form-group">
+                            <label class="control-label col-lg-2 col-xs-3" for=""></label>
+                            <div class="input-group col-lg-6 col-xs-8">
+                                <input class="form-control" id="g-btn" type="submit" onclick="return checkNull()"  name="" value="发布" />
+                            </div>
+                        </div>
+             
+
+             
+            </form>
+
+
+        </div>
+    </section>
+
+    <include file="Public/footer" />
+
+
+    <script type="text/javascript">
+        function checkNull()
+        {
+             var num=0;
+             var str="";
+             $("input[type$='text']").each(function(n){
+                  if($(this).val()=="")
+                  {
+                       num++;
+                       str+=$(this).attr("msg")+"不能为空！\r\n";
+                  }
+             });
+             if(num>0)
+             {
+                  alert(str);
+                  return false;
+             }
+             else
+             {
+                  return true;
+             }
+        }
+        $(function(){
+            $("#regForm").submit(function(){
+                var url=$(this).attr('action');
+                var datas=$(this).serialize();
+                $.ajax({
+                    type:'post',
+                    url:url,
+                    data:datas,
+                    dataType:'json',
+                    success:function(msg){
+                      if(msg.code==1){
+                        alert(msg.msg);
+                        window.location.reload();
+                      }else if(msg.code==3){
+                        alert(msg.msg);
+                        window.location.href="/index.php/User/MyMoney.html";
+                      }else{
+                        alert(msg.msg);
+                      }
+                    }
+                })
+                return false;
+            })
+        })
+
+    </script>

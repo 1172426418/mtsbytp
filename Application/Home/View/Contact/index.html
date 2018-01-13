@@ -1,0 +1,77 @@
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GVfrroDB48Vt6jgVrKjFbnPZtbQ3BSed"></script>
+<!-- 公共头部开始 -->
+<include file="Public/header"/>
+    <!-- 公共头部结束 -->
+
+    <!-- 第一部分 -->
+
+    <section class="contact-sec">
+        <div class="container">
+            <h1>CONTACT US</h1>
+            <div class="contact-line1"></div>
+            <p>联系我们</p>
+            <img class="icon" src="__ROOT__/public/home/img/contact-icon.png" alt="">
+
+            <p>联系区域</p>
+            <div class="contact-line2"></div>
+            <p class="adress"><span class="square"></span><span class="p1">咨询方式</span><span class="p2">027-64920057</span></p>
+            <p class="adress"><span class="square"></span><span class="p1">QQ咨询</span><span class="p2">123516462</span></p>
+            <p class="adress"><span class="square"></span><span class="p1">邮箱</span><span class="p2">qingnian@vip.163.com</span></p>
+            <p class="adress"><span class="square"></span><span class="p1">联系地址</span><span class="p2">武汉市洪山区南湖花园江南村804终点站</span></p>
+            <!--<img class="map img-responsive center-block" src="__ROOT__/public/home/img/contact-map.jpg" alt="" >-->
+            <div id="allmap" style="width:60%;height:60%;margin:0 auto;"></div>
+        </div>
+    </section>
+
+  
+
+
+
+<!-- 底部 -->
+<include file="Public/footer"/>
+
+</body>
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");    // 创建Map实例
+    map.centerAndZoom(new BMap.Point(114.504132, 30.496445), 14);  // 初始化地图,设置中心点坐标和地图级别
+   map.centerAndZoom( point,18);  
+    map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+    map.setCurrentCity("武汉");          // 设置地图显示的城市 此项是必须设置的
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    var points = [
+        [114.504132,30.496445]
+        /*[116.323938,39.989919],
+        [116.328896,39.988039],
+        [116.321135,39.987072],
+        [116.332453,39.989007],
+        [116.324045,39.987984],
+        [116.322285,39.988316],
+        [116.322608,39.986381]*/
+    ];
+    // 向地图添加标注
+    for( var i = 0;i < points.length; i++){
+        var myIcon = new BMap.Icon("http://7xic1p.com1.z0.glb.clouddn.com/markers.png", new BMap.Size(23, 25), {
+            // 指定定位位置
+            offset: new BMap.Size(10, 25),
+            // 当需要从一幅较大的图片中截取某部分作为标注图标时，需要指定大图的偏移位置
+            imageOffset: new BMap.Size(0, 0 - i * 25) // 设置图片偏移
+        });
+        var point = new BMap.Point(points[i][0],points[i][1]);
+        // 创建标注对象并添加到地图
+        var marker = new BMap.Marker(point,{icon: myIcon});
+        map.addOverlay(marker);
+    };
+</script>
+<script>
+    //$('.products').addClass('hoverClass');
+    (function () {
+        var win = document.documentElement.clientWidth;
+        if (win < 768) {
+            $(".carousel").empty();
+        }
+    }());
+    $('.contact').addClass('hoverClass');
+</script>
+</html>

@@ -1,0 +1,56 @@
+ <article class="per clear">
+                <div class="pr-1">
+                    <img class="center-block" src="__ROOT__/public/home/img/i11.png" alt="">
+                </div>
+                <div class="pr-2">
+                    <span>{$result.realname}</span>
+                    <span class="af-img">
+                    	<if condition="$result['is_authenticate'] neq '1'">
+                        <img src="__ROOT__/public/home/img/i12.png" alt="">
+                        <else /><img src="__ROOT__/public/home/img/i13.png" alt=""></if>
+                    </span>
+                </div>
+                <div class="pr-3 clear">
+                    <div>
+                        <a href="{:U('User/MyMoney')}">
+                            <img src="__ROOT__/public/home/img/i8.png" alt="">
+                            <p>余额</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="{:U('User/UserPay')}">
+                            <img src="__ROOT__/public/home/img/i9.png" alt="">
+                            <p>充值</p>
+
+                        </a>
+                    </div>
+                    <div>
+                        <a href="{:U('User/UserCash')}">
+                            <img src="__ROOT__/public/home/img/i10.png" alt="">
+                            <p>提现</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="pr-4">
+                    <ul>
+                        <li>
+                            <a  href="{:U('User/index')}">个人资料</a>
+                        </li>
+                        <li>
+                            <a href="{:U('User/MyRelease')}">我的发布</a>
+                        </li>
+                        <li>
+                            <a href="{:U('User/MyReport')}">我的举报</a>
+                        </li>
+                        <li>
+                            <a href="{:U('User/Mysave')}">我的保全令</a>
+                        </li>
+                        <li>
+                            <a href="{:U('User/MyComment')}">我的评论</a>
+                        </li>
+                        <li>
+                            <a href="{:U('User/Authenticate')}">认证</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>

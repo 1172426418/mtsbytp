@@ -1,0 +1,83 @@
+<include file="Public/header" />
+
+    <link rel="stylesheet" href="__ROOT__/public/home/css/sign.css">
+	 <section class="sign">
+        <div class="container">
+            <div class="sign-content">
+                <div class="title">
+                    <i></i>
+                    <span>登录</span>
+                </div>
+                <form id="i-login" class="form-horizontal clear" action="{:U('Login/index')}" method="post">
+
+
+                    <div class="form-group">
+                        <label class="i1"></label>
+
+                        <input class="form-control" type="text" name="tel" value="" placeholder="请输入手机号">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="i2"></label>
+
+                        <input class="form-control" type="password" name="password" value="" placeholder="请输入密码">
+
+                    </div>
+                    <div class="form-group">
+
+                        <input class="form-control" type="submit" name="" value="登录">
+                        
+                    </div>
+
+                    <div  class="form-group s-a clear">
+
+                        <a href="{:U('Register/index')}">免费注册</a>
+                        <a href="{:U('Login/pwd_reset')}">忘记密码?</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+<!-- 	<form id="loginForm" method="post" action="{:U('Login/index')}">
+		<label>手机号</label>
+		<input type="text" name="tel">
+		<label>密码</label>
+		<input type="password" name="password">
+		<input type="submit" value="登陆">
+	</form> -->
+<include file="Public/footer" />
+    <script src="__ROOT__/public/home/js/bootstrapValidator.min.js"></script>
+    <script src="__ROOT__/public/home/js/sign.js"></script>
+<script type="text/javascript">
+	$(function(){
+		
+		$("#i-login").on('submit',function(){
+			var data=$("#i-login").serialize();
+			var url=$(this).attr("action");
+			$.ajax({
+				type:'post',
+				async:false,//关闭异步方式
+				url:url,
+				data:data,
+				dataType:'json',
+				success:function(msg){
+					if(msg.code==1){
+						 // alert(msg.msg);
+						window.location.href="/";
+					}else{
+						alert(msg.msg);
+					
+					}
+
+				}
+			})
+			
+			return false;
+		})
+		
+	})
+
+
+</script>

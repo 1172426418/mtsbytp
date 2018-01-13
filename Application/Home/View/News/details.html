@@ -1,0 +1,28 @@
+<include file="Public/header" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/case-detail.css">
+
+   <section class="case-content">
+        <div class="container">
+            <h1 class="clear">
+                    {$list.title}
+                <small class="time hidden-xs">{$list.addtime|date="Y-m-d",###}</small>
+            </h1>
+
+            <img class="mrm img-responsive center-block" src="__ROOT__/{$list.image}" alt="">
+           
+            <div class="content clear">
+                {$list.content|htmlspecialchars_decode=###}
+                
+
+            </div>
+
+            <!-- 其他部分 -->
+            
+        </div>
+    </section>
+
+
+
+
+
+<include file="Public/footer" />

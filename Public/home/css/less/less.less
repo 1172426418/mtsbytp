@@ -1,0 +1,137 @@
+// @import "less/less";
+@px: 1px;
+
+@z:#b56acb;
+@boxs:rgba(111,111,111,.3);
+@e6:#e6e6e6;
+@f:#ffffff;
+@c_t:#b369ca;
+@c_b:#64257f;
+ 
+
+//icon,必须设置宽高
+.ic(@src: '',@w: '', @h: ''){
+    background: url("../img/@{src}") no-repeat;
+    display: block;
+    width: @px*@w;
+    height: @px*@h;
+}
+
+// 背景，无需设置宽高
+.bi(@src: '') {
+    background:url("../img/@{src}") no-repeat center center;
+    display: block;
+    background-size: cover;
+}
+
+// 背景颜色
+.bc(@col:'') {
+    background-color: @col;
+}
+
+//背景渐变
+.bc_gd(@color:'',@gdcr:''){
+    // filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=@color,endcolorstr=@gdcr,gradientType=0);
+    // -ms-filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=@color,endcolorstr=@gdcr,gradientType=0);/*IE8*/	
+    background-color:@color; /* 一些不支持背景渐变的浏览器 */  
+    background:-moz-linear-gradient(top, @color, @gdcr);  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(@color), to(@gdcr));  
+  
+}
+
+// 颜色+字体,可设置默认值
+.cf(@color:'', @font: 12) {
+    color: @color;
+    font-size: @px*@font;
+}
+
+//文字颜色
+.cr(@color:''){
+    color:@color;
+}
+
+//字体
+.ft(@font:''){
+    font-size: @font*@px;
+}
+ 
+// 内边距
+.pd(@pt: '',@pl: '') {
+    padding: @pt*@px @pl*@px;
+}
+
+//外边距
+.mg(@mt:'',@ml:''){
+    margin: @mt*@px @ml*@px;
+}
+
+
+//边框
+.br(@color:''){
+    border: 1px solid @color; 
+}
+
+
+//多重阴影
+.bs(@b-color: rgba(0, 240, 255, .4)) {
+    box-shadow: @px @px @px*10 @b-color, 0 0 @px*20 @b-color, 0 0 @px*30 @b-color;
+}
+
+//清除浮动
+.clear(){
+    &:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        height: 0;
+        clear: both;
+    }
+}
+    
+//循环-图标
+.i-loop(@src,@n, @i:1) when (@i <= @n) {
+    //自定义样式名
+    .i@{i} {
+        background: url("../img/@{src}@{i}.png") no-repeat;
+                
+    }
+    .i-loop(@src,@n, (@i + 1));
+}
+
+//兼容前缀
+.prefix(@name,@value){
+    -webkit-@{name}: @value;
+     -ms-@{name}: @value;
+         @{name}: @value;
+}
+
+
+
+// 线
+.line(){
+    content: '';
+    width:60px;
+    height:2px;
+    .bc(@z);
+    display: inline-block;
+    position: relative;
+ 
+}
+// 使用线，文字左右加线
+.fater(){
+    text-align: center;
+    // 左
+    &:before{
+        .line();
+        text-align: right;
+        bottom:5px;
+        margin-right: 30px;
+    }
+    // 右
+    &:after{
+        .line();
+        text-align: left;
+        bottom:5px;
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,92 @@
+[ 2018-01-08T09:27:12+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010663s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010775s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-01-08T09:30:06+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2018-01-08T09:38:18+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2018-01-08T09:38:43+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-08T09:38:53+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0200s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: user E:\wamp\www\xmcy\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ms_event` [ RunTime:0.0255s ]
+SQL: SHOW COLUMNS FROM `ms_case` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0801s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 2 ORDER BY id desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT `id`,`title`,`addtime`,`image` FROM `ms_case` ORDER BY id desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`addtime`,`image`,`abstract` FROM `ms_news` ORDER BY id desc LIMIT 3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE `is_see` = 1 AND ( id < 9 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001716s ]
+

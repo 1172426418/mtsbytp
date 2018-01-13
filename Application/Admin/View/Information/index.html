@@ -1,0 +1,236 @@
+﻿
+<!--头部文件-->
+<include file="Public/header"/>
+<!--头部文件结束-->
+
+<div class="wrapper">
+
+    <!--左侧菜单栏-->
+    <include file="Public/menu"/>
+    <!--左侧菜单栏结束-->
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+				<div class="navbar-minimize">
+					<button id="minimizeSidebar" class="btn btn-warning btn-fill btn-round btn-icon">
+						<i class="fa fa-ellipsis-v visible-on-sidebar-regular"></i>
+						<i class="fa fa-navicon visible-on-sidebar-mini"></i>
+					</button>
+				</div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">动态资讯</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header text-center">
+                                <h4 class="title">动态资讯设置</h4>
+                                <p class="category" style="color:orange">每类推荐最多保存10份资讯，只能同时展示4份</p>
+                                <br/>
+                                <input class="info_category" type="button" value="公司咨询">
+                                <input class="info_category" type="button" value="行业咨询">
+                                <input class="info_category" type="button" value="行业小助手">
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-bigboy">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center">展示图</th>
+                                            <th class="text-center">标题</th>
+                                            <th class="text-center">上传人</th>
+                                            <th class="text-center">类别</th>
+                                            <th class="text-center">上传时间</th>
+                                            <th class="text-center">开始展示时间</th>
+                                            <th class="text-center">已持续展示</th>
+                                            <th class="text-center">状态</th>
+                                            <th class="text-center">管理</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <foreach name="information" item="v">
+                                        <tr align="center">
+                                            <td style="width:10%;padding:4px 0;">
+                                                <img src="__ROOT__/{$v.path}" style="width:100px;height:70px;">
+                                            </td>
+                                            <td>{$v.title}</td>
+                                            <td>{$v.author}</td>
+                                            <td>{$v.menu}</td>
+                                            <td>{$v.date}</td>
+
+                                            <if condition="$v['recently_time']==0">
+                                                <td class="recently_time" data-id="{$v.id}" style="color:#ccc">--</td>
+                                                <else/>
+                                                <td class="recently_time" data-id="{$v.id}">{$v.recently_time}</td>
+                                            </if>
+
+                                            <if condition="$v['recently_time']==0">
+                                                <td class="now_time" style="color:#ccc" data-id="{$v.id}">--</td>
+                                                <else/>
+                                                <td class="now_time" data-id="{$v.id}">{$v.now_time}</td>
+                                            </if>
+
+                                            <td class="select-state" data-id="{$v.id}">
+                                                <if condition="$v['state']==1">
+                                                    <img data-id="{$v.id}" src="__ROOT__/public/img/effect/checked.png">
+                                                    <else/>
+                                                    <img data-id="{$v.id}" src="__ROOT__/public/img/effect/unchecked.png">
+                                                </if>
+                                            </td>
+                                            <td class="effect">
+                                                <img class="infor_update" data-id="{$v.id}" src="__ROOT__/public/img/effect/asadaf.jpg" alt="改变状态" title="改变状态" style="width:21px;height:22px;margin-right:9px;">
+                                                <img src="__ROOT__/public/img/effect/update.png" onclick="window.location.href='__APP__/Information/edit/id/{$v.id}/type/{$type}.html'" alt="编辑" title="编辑">&nbsp;&nbsp;
+                                                <img class="infor_delete" data-state="{$v.state}" data-id="{$v.id}" src="__ROOT__/public/img/effect/delete.png" alt="删除" title="删除">
+                                            </td>
+                                        </tr>
+                                    </foreach>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><!--  end card  -->
+                        <input id="infor_insert" type="button" value="添加新资讯" style="width:140px;height:35px;background:white;border:1px solid #888">
+                    </div> <!-- end col-md-12 -->
+
+                </div> <!-- end row -->
+
+            </div>
+        </div>
+
+<!--底部文件-->
+<include file="Public/footer"/>
+<!--底部文件结束-->
+
+    </div>
+</div>
+
+</body>
+    <!--   Core JS Files and PerfectScrollbar library inside jquery.ui   -->
+    <script src="__ROOT__/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="__ROOT__/public/js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="__ROOT__/public/js/bootstrap.min.js" type="text/javascript"></script>
+	<!--  Forms Validations Plugin -->
+	<script src="__ROOT__/public/js/jquery.validate.min.js"></script>
+	<!--  Plugin for Date Time Picker and Full Calendar Plugin-->
+	<script src="__ROOT__/public/js/moment.min.js"></script>
+    <!--  Date Time Picker Plugin is included in this js file -->
+    <script src="__ROOT__/public/js/bootstrap-datetimepicker.js"></script>
+    <!--  Select Picker Plugin -->
+    <script src="__ROOT__/public/js/bootstrap-selectpicker.js"></script>
+	<!--  Checkbox, Radio, Switch and Tags Input Plugins -->
+	<script src="__ROOT__/public/js/bootstrap-checkbox-radio-switch-tags.js"></script>
+	<!--  Charts Plugin -->
+	<script src="__ROOT__/public/js/chartist.min.js"></script>
+    <!--  Notifications Plugin    -->
+    <script src="__ROOT__/public/js/bootstrap-notify.js"></script>
+    <!-- Sweet Alert 2 plugin -->
+	<script src="__ROOT__/public/js/sweetalert2.js"></script>
+    <!-- Vector Map plugin -->
+	<script src="__ROOT__/public/js/jquery-jvectormap.js"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="__ROOT__/public/js/aa743e8f448a4792bad10d201a7080f6.js"></script>
+	<!-- Wizard Plugin    -->
+    <script src="__ROOT__/public/js/jquery.bootstrap.wizard.min.js"></script>
+	<!--  Bootstrap Table Plugin    -->
+	<script src="__ROOT__/public/js/bootstrap-table.js"></script>
+	<!--  Plugin for DataTables.net  -->
+	<script src="__ROOT__/public/js/jquery.datatables.js"></script>
+    <!--  Full Calendar Plugin    -->
+    <script src="__ROOT__/public/js/fullcalendar.min.js"></script>
+    <!-- Light Bootstrap Dashboard Core javascript and methods -->
+	<script src="__ROOT__/public/js/light-bootstrap-dashboard.js"></script>
+	<!--   Sharrre Library    -->
+    <script src="__ROOT__/public/js/jquery.sharrre.js"></script>
+	<!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+	<script src="__ROOT__/public/js/demo.js"></script>
+
+<script src="__ROOT__/public/js/new_js.js"></script>
+
+<!-- 自添js -->
+
+<!-- 图片预览 -->
+<script>
+    $('li.Information').addClass('active');
+    $('.info_category[value={$type}]').prop('disabled','disabled').css('background','#ccc');
+    $('.info_category').click(function(){
+        var type=$(this).val();
+        window.location.href='__APP__/Information/index/type/'+type+'.html';
+    })
+
+    $(function(){
+        $('#load_img').on('change',function(){
+            var imgfile =this.files[0];
+            var fr= new FileReader();
+            fr.onload=function(){
+                $('#show_load_img').attr('src',fr.result);
+                $('#show_load_img').css({"width":"100px","height":"100px"});
+            }
+            fr.readAsDataURL(imgfile);
+        });
+    })
+</script>
+<script>
+    $('.card input').mouseover(function(){
+        $(this).css('background','#888');
+    })
+    $('.card input').mouseout(function(){
+        $(this).css('background','#FFA534');
+    })
+    $('#infor_insert').click(function(){
+        $.ajax({
+            type:'post',
+            url:"__APP__/Information/is_ten",
+            data:'type={$type}',
+            success:function(data){
+                if(data=='gt_ten'){
+                    One_button('上传资讯已经达到10份，无法继续添加！');
+                }else{
+                    window.location.href='__APP__/Information/insert/type/{$type}.html';
+                }
+            }
+        })
+    });
+    //改变状态点击事件
+    $('.infor_update').click(function(){
+        var id=$(this).attr('data-id');
+        $.ajax({
+            type:'post',
+            url:"__APP__/Information/infor_update",
+            data:'id='+id+'&type={$type}',
+            success:function(data){
+                if(data=='gt'){
+                    One_button('只能同时展示4份资讯！');
+                }else if(data=='dowm'){
+                    $('.recently_time[data-id='+id+']').text('--').css('color','#ccc');
+                    $('.now_time[data-id='+id+']').text('--').css('color','#ccc');
+                    $('.select-state img[data-id='+id+']').attr('src','__ROOT__/public/img/effect/unchecked.png');
+                    $('.infor_delete[data-id='+id+']').attr('data-state',0);
+                }else{
+                    $('.recently_time[data-id='+id+']').text(data).css('color','');
+                    $('.now_time[data-id='+id+']').text('1分钟').css('color','');
+                    $('.select-state img[data-id='+id+']').attr('src','__ROOT__/public/img/effect/checked.png');
+                    $('.infor_delete[data-id='+id+']').attr('data-state',1);
+                }
+            }
+        })
+    })
+
+    //删除事件
+    $('.infor_delete').click(function(){
+        var id=$(this).attr('data-id');
+        var state=$(this).attr('data-state');
+        if(state==1){
+            One_button('展示中图片无法直接删除，请先停止展示！');
+        }else{
+            Double_button('确定删除该资讯吗？','__APP__/Information/delete/id/'+id+'.html');
+        }
+    })
+</script>
+
+</html>

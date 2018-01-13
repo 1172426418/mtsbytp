@@ -1,0 +1,50 @@
+  
+<include file="Public/header" />
+   <link rel="stylesheet" href="__ROOT__/public/home/css/per-datum.css">
+
+    <section class="per-box">
+    <div class="center-element clear">
+            <!-- 左边 -->
+        <include file="Public/UserMenu" />        
+
+            <!-- 右边 -->
+            <article class="per-cont">
+                <div class="title">
+                    <span>我的表扬</span>
+                </div>
+                <div class="cont-list">
+                    <ul class="item-ul">
+                    	<foreach name="list" item="vo">
+                        <li>
+                            <a href="{:U('User/MyReleaseDetails',array('id'=>$vo['id']))}">
+                                {$vo.title}
+                                <if condition="$vo['state'] eq '0'">
+                                <span class="active-b">【受理中】</span>
+                                <elseif condition="$vo['state'] eq '1'" />
+                                <span class="active-g">【已通过】</span>
+                                <else />
+                                <span class="active-r">【未通过】</span>
+                            	</if>
+                             
+                                <span class="time">{$vo.addtime|date='Y-m-d',###}</span>
+                            </a>
+                        </li>
+                    </foreach>
+                      
+                    </ul>
+                    <div class="seal-page">
+
+                 
+                      {$page}    </ul>
+                     
+                </div>
+                      
+                </div>
+            </article>
+        </div>
+
+    </section>
+    <include file="Public/footer" />
+
+    <script type="text/javascript">$(".pr-4 a").eq(1).addClass('pr-active');</script>
+

@@ -1,0 +1,59 @@
+<include file="Public/header" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/sign.css">
+<section class="sign">
+        <div class="container">
+            <div class="sign-content">
+                <div class="title">
+                    <i></i>
+                    <span>修改密码</span>
+                </div>
+                <form id="regForm" class="form-horizontal clear" action="{:U('Login/changepwd')}" method="post">
+
+                  
+
+                    
+                    <div class="form-group">
+                        <label class="reg2 i2" for=""></label>
+
+                        <input class="form-control" type="password" name="oldpwd" placeholder="请输入原密码">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="reg3 i2" for=""></label>
+
+                        <input class="form-control" type="password" name="password" placeholder="请输入新密码">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="reg4 i2" for=""></label>
+
+                        <input class="form-control" type="password" name="confirmPassword" placeholder="请确认新密码">
+
+                    </div>
+
+                   
+                    <div class="form-group">
+                        <label class="reg6" for=""></label>
+
+                        <input class="form-control"  type="submit" name="" value="确定">
+
+                    </div>
+
+                  <!--   <div class="form-group ret-p clear">
+                        <a href="{:U('Register/index')}">免费注册</a>
+                        <a href="{:U('Login/index')}">返回登录</a>
+                    </div> -->
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <include file="Public/footer" />
+     <script src="__ROOT__/public/home/js/bootstrapValidator.min.js"></script>
+
+       <script src="__ROOT__/public/home/js/changepwd.js"></script>
+
+       

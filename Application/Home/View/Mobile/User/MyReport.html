@@ -1,0 +1,95 @@
+  
+<include file="Public/header" />
+
+       <link rel="stylesheet" href="__ROOT__/public/home/css/per-token.css">
+       <style type="text/css">
+           .per-cont .cont-list .rp-ta .del {
+                background: url(__ROOT__/public/home/img/i14.png) no-repeat center center;
+                /*float:right;*/
+
+            }
+            .per-cont .cont-list ul li a{
+                width: 96%;
+                float: left;
+            }
+
+       </style>
+    <section class="per-box">
+        <div class="center-element clear">
+            <!-- 左边 -->
+<!--    <include file="Public/UserMenu" />    -->     
+
+            <!-- 右边 -->
+            <article class="per-cont">
+                <div class="title">
+                    <span>我的举报</span>
+                    <div class="my-tk">
+                        <span class="tk-active">我的举报</span>
+                        <span><a href="{:U('User/MyBereport')}">被举报</a></span>
+                    </div>
+                </div>
+                <div class="cont-list">
+                    <ul class="rp-ta item-ul">
+                        <foreach name="list" item="vo">
+                        <li class="clear">
+                            <a   href="{:U('User/MyBesaveDetails',array('id'=>$vo['id']))}">
+                                {$vo.title}
+                                <if condition="$vo['state'] eq '0'">
+                                <span class="active-b">【受理中】</span>
+                                <elseif condition="$vo['state'] eq '1'" />
+                                <span class="active-g">【已通过】</span>
+                                <else />
+                                <span class="active-r">【未通过】</span>
+                                </if>
+                                 <span class="time">{$vo.addtime|date='m-d',###}</span>
+                            </a>
+                             <if condition="$vo['state'] eq '1'">
+                            <i class="del" msg="{$vo.id}"></i>
+                        </if>
+                        </li>
+                    </foreach>
+                        {$page}
+                    </ul>
+
+                   
+          
+                  
+                </div>
+            </article>
+        </div>
+
+    </section>
+    <include file="Public/footer" />
+        <script type="text/javascript">
+            $(".pr-4 a").eq(2).addClass('pr-active').siblings().removeClass('pr-active');
+            $(function(){
+                $(".del").click(function(){
+                     var msg = "删除已通过的举报，每个删除将扣取平台建设费10元，您真的确定要删除该事件吗？"; 
+                         if (confirm(msg)==true){ 
+                            var id=$(this).attr('msg');
+                            // alert(id);
+                            $.ajax({
+                                type:'post',
+                                url:"{:U('Event/delevent')}",
+                                data:{id:id},
+                                dataType:'json',
+                                success:function(e){
+                                    if(e.code==1){
+                                        alert(e.msg);
+                                        window.location.reload();
+                                    }else{
+                                        alert(e.msg);
+                                    }
+                                }
+                            })
+                            
+                         }else{ 
+                          return false; 
+                         } 
+                })
+            })
+
+    </script>
+
+
+

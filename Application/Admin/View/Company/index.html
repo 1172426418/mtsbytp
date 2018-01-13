@@ -1,0 +1,236 @@
+﻿<!--头部文件-->
+<include file="Public/header"/>
+<!--头部文件结束-->
+
+
+<div class="wrapper">
+    <!--左侧菜单栏-->
+    <include file="Public/menu"/>
+    <!--左侧菜单栏结束-->
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-minimize">
+                    <button id="minimizeSidebar" class="btn btn-warning btn-fill btn-round btn-icon">
+                        <i class="fa fa-ellipsis-v visible-on-sidebar-regular"></i>
+                        <i class="fa fa-navicon visible-on-sidebar-mini"></i>
+                    </button>
+                </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">修改公司资料</a>
+                </div>
+            </div>
+        </nav>
+<div class="modal fade bs-example-modal-sm" id="tip" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">提示信息</h4>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        <div class="content">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <form id="company_form" class="form-horizontal" action="{:U('Company/edit')}" method="post">
+                                <div class="content">
+                                    <legend>修改公司资料</legend>
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label"></label>
+                                            <div class="col-sm-6"></div>
+                                        </div>
+                                    </fieldset>
+                                
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">联系人</label>
+                                            <div class="col-sm-3" style="width:20%">
+                                                <input class="form-control truename" value="{$message.linkman}" type="text" name="linkman"/>
+                                            </div>
+
+                                         
+                                        </div>
+                                    </fieldset>
+                                     <fieldset>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">手机</label>
+                                            <div class="col-sm-3" style="width:20%">
+                                                <input class="form-control truename" value="{$message.linktel}" type="text" name="linktel"/>
+                                            </div>
+
+                                            <label style="width:10%" class="col-sm-2 control-label">微信</label>
+                                            <div class="col-sm-3" style="width:20%">
+                                                <input class="form-control truename" value="{$message.linkwx}" type="text" name="linkwx"/>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+
+
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label"><span style="color:red">*&nbsp;</span>邮箱</label>
+                                            <div class="col-sm-6">
+                                                <input class="form-control phone" type="text" value="{$message.linkemail}" name="linkemail" placeholder="请填入邮箱" onkeyup="value=value.replace(/[^\S]+/g,'')"/>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label"><span style="color:red">*&nbsp;</span>地址</label>
+                                            <div class="col-sm-6">
+                                                <input class="form-control email" value="{$message.linkadress}" type="text" name="linkadress" placeholder="请输入联系地址" />
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">联系我们</label>
+                                            <div class="col-sm-6">
+                                                <script name='linkus' id="editor" type="text/plain" style="width:110%;height:500px;">{$message.linkus|htmlspecialchars_decode=###}</script>
+                                                <script type="text/javascript">
+                                                var ue = UE.getEditor('editor');
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                  
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label"></label>
+                                            <div class="col-sm-3">
+                                                <span id="admin_success" style="padding-left:4%;color:red"></span>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                                <div class="footer text-left">
+                                    <button id="button_yes" type="button" class="btn btn-info btn-fill">提交</button>
+                                   <!--  <a href="{:U('Company/index')}"><button id="button_no" type="button" class="btn btn-info btn-fill">返回</button></a> -->
+                                 <br/>
+                                    <br/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--底部文件-->
+        <include file="Public/footer"/>
+        <!--底部文件结束-->
+
+
+    </div>
+</div>
+
+</body>
+
+    <!--   Core JS Files and PerfectScrollbar library inside jquery.ui   -->
+    <script src="__ROOT__/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="__ROOT__/public/js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="__ROOT__/public/js/bootstrap.min.js" type="text/javascript"></script>
+
+
+    <!--  Forms Validations Plugin -->
+    <script src="__ROOT__/public/js/jquery.validate.min.js"></script>
+    <!--  Plugin for Date Time Picker and Full Calendar Plugin-->
+    <script src="__ROOT__/public/js/moment.min.js"></script>
+    <!--  Date Time Picker Plugin is included in this js file -->
+    <script src="__ROOT__/public/js/bootstrap-datetimepicker.js"></script>
+    <!--  Select Picker Plugin -->
+    <script src="__ROOT__/public/js/bootstrap-selectpicker.js"></script>
+    <!--  Checkbox, Radio, Switch and Tags Input Plugins -->
+    <script src="__ROOT__/public/js/bootstrap-checkbox-radio-switch-tags.js"></script>
+    <!--  Charts Plugin -->
+    <script src="__ROOT__/public/js/chartist.min.js"></script>
+    <!--  Notifications Plugin    -->
+    <script src="__ROOT__/public/js/bootstrap-notify.js"></script>
+    <!-- Sweet Alert 2 plugin -->
+    <script src="__ROOT__/public/js/sweetalert2.js"></script>
+    <!-- Vector Map plugin -->
+    <script src="__ROOT__/public/js/jquery-jvectormap.js"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="__ROOT__/public/js/aa743e8f448a4792bad10d201a7080f6.js"></script>
+    <!-- Wizard Plugin   -->
+    <script src="__ROOT__/public/js/jquery.bootstrap.wizard.min.js"></script>
+    <!--  Bootstrap Table Plugin    -->
+    <script src="__ROOT__/public/js/bootstrap-table.js"></script>
+    <!--  Plugin for DataTables.net  -->
+    <script src="__ROOT__/public/js/jquery.datatables.js"></script>
+    <!--  Full Calendar Plugin    -->
+    <script src="__ROOT__/public/js/fullcalendar.min.js"></script>
+    <!-- Light Bootstrap Dashboard Core javascript and methods -->
+    <script src="__ROOT__/public/js/light-bootstrap-dashboard.js"></script>
+    <!--   Sharrre Library    -->
+    <script src="__ROOT__/public/js/jquery.sharrre.js"></script>
+    <!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+    <script src="__ROOT__/public/js/demo.js"></script>
+<script src="__ROOT__/public/js/new_js.js"></script>
+
+<script>
+    $('li.Company').addClass('active');
+    $('a.Company-a').attr('aria-expanded','true');
+    $('div.Company-div').addClass('in');
+    $('li.Company-index').addClass('active');
+
+    $('#button_yes').click(function(){
+        var datas=$("#company_form").serialize();
+        var url=$("#company_form").attr("action");
+        hotword=$("#hotword").val();
+        datas=datas+"&hotword="+hotword;
+        $.ajax({
+            type:'post',
+            url:url,
+            data:datas,
+            success:function(msg){
+                // $(".modal-body").html(msg);
+                // $('#tip').modal('toggle');
+                tip(msg);
+            }
+        })
+       
+    })
+
+
+    // function verify(){
+    //     var phone=$('.phone').val();
+    //     var email=$('.email').val();
+    //     $.ajax({
+    //         type:'post',
+    //         url:"__APP__/Staffs/edit_sole",
+    //         data:'phone='+phone+'&email='+email+'&id={$admin.id}',
+    //         success:function(data){
+    //             if(data=='exist-phone'){
+    //                 $('#admin_success').text('已存在的联系电话');
+    //             }else if(data=='exist-email'){
+    //                 $('#admin_success').text('已存在的邮箱地址');
+    //             }else if(data=='ok'){
+    //                 $('#admin_form').submit();
+    //             }
+    //         }
+    //     })
+
+    // }
+</script>
+<script>
+    $('.jurisdiction option[value={$admin.jurisdiction}]').prop('selected','selected');
+</script>
+</html>

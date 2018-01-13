@@ -1,0 +1,65 @@
+  
+<include file="Public/header" />
+   <link rel="stylesheet" href="__ROOT__/public/home/css/per-datum.css">
+ <section class="per-box">
+        <div class="center-element clear">
+            <!-- 左边 -->
+         <!--     <include file="Public/UserMenu" />    --> 
+            <!-- 右边 -->
+            <article class="per-cont">
+                <div class="title">
+                    <span>个人资料</span>
+                </div>
+                <div class="cont-datum">
+                    <form class="form-horizontal" action="{:U('User/EditProfile')}" id="edit_user">
+                        <div class="form-group ">
+                            <label class="control-label" for="">姓名：</label>
+                            <input class="form-control"  type="text" value="{$result.realname}" name="realname" <if condition="$result['is_authenticate'] eq '1'">disabled</if>>
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label" for="">手机号：</label>
+                            <input class="form-control" type="text" value="{$result.tel}" name="tel" disabled onkeyup='this.value=this.value.replace(/\D/gi,"")'>
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label" for="">QQ：</label>
+                            <input class="form-control" type="text" value="{$result.qq}" name="qq" onkeyup='this.value=this.value.replace(/\D/gi,"")'>
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label" for="">备注：</label>
+                            <span style="float:left;padding-top: 7px;color: red;">在未认证之前，你仍可对姓名进行修改</span>
+                        </div>
+                        <div class="form-group mrb">
+                            <label class="control-label" for=""></label>
+                            <input class="qrc" type="submit" value="确认修改">
+                        </div>
+
+                        
+
+                    </form>
+                </div>
+
+            </article>
+        </div>
+
+    </section>
+    <include file="Public/footer" />
+
+    	    <script>
+        $(function () {
+          	$("#edit_user").submit(function(){
+          		var datas=$("#edit_user").serialize();
+          		var url=$(this).attr('action');
+          		$.ajax({
+          			type:'post',
+          			url:url,
+          			data:datas,
+          			success:function(msg){
+          				alert(msg.msg);
+          				// console.log(msg);
+          			}
+          		})
+          		return false;
+          	})
+
+        })
+    </script>

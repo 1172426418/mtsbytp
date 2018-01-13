@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="梦淘沙,创业,创业家族,创新,mengtaosha,梦淘沙创业家族" />
+    <meta name="description" content="梦淘沙：让年轻成为你的资本，试着发现生活中的美。调整心态保持品味，用心经营青春无悔。" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <link rel="icon" href="__ROOT__/public/home/img/x-icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__ROOT__/public/home/css/common.css">
+    <link rel="stylesheet" href="__ROOT__/public/home/css/index.css">
+    <title> <if condition="$result.title eq ''">梦淘沙创业家族<else />{$result.title}</if></title>
+</head>
+
+<body>
+
+
+
+    <section class="header">
+
+
+        <!-- logo -->
+        <div class="logo">
+            <img class="img-responsive center-block" src="__ROOT__/public/home/img/logo_text.jpg" alt="">
+        </div>
+
+
+        <!-- 轮播 -->
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <foreach name="banner" item="vo" key="k">
+                <div class="item <if condition='$k eq 0'> active</if>">
+                    <img src="__ROOT__/{$vo.image}" alt="...">
+
+                </div>
+
+              </foreach>
+               <!--  <div class="item active">
+                    <img src="__ROOT__/public/home/img/banner1.jpg" alt="...">
+
+                </div>
+                <div class="item">
+                    <img src="__ROOT__/public/home/img/banner1.jpg" alt="...">
+
+                </div>
+                <div class="item">
+                    <img src="__ROOT__/public/home/img/banner1.jpg" alt="...">
+
+                </div> -->
+
+            </div>
+        </div>
+
+
+    </section>

@@ -1,0 +1,111 @@
+<div id="men-left" class="sidebar" data-color="orange" data-image="../../assets/img/full-screen-image-3.jpg">
+
+    <div class="logo">
+        <a href="#" class="logo-text">
+            梦淘沙创业家族
+        </a>
+    </div>
+    <div class="logo logo-mini">
+        <a href="#" class="logo-text">
+            梦淘沙创业家族
+        </a>
+    </div>
+
+    <div class="sidebar-wrapper">
+
+        <div class="user">
+            <div class="photo">
+                <img src="__ROOT__/public/img/logo.png" /><!--管理员照片-->
+            </div>
+            <div class="info">
+                <a data-toggle="collapse" href="#collapseExample" class="collapsed">
+                    {$admin_data.truename} , 您好
+                    <!-- <b class="caret"></b> -->
+                </a>
+               <!--  <div class="collapse" id="collapseExample">
+                    <ul class="nav">
+                        <li><a href="__APP__/Oneself/update_data.html">修改个人资料</a></li>
+                        <li><a href="__APP__/Oneself/update_pwd.html">修改登录密码</a></li>
+                        <li class="quit"><a href="__APP__/Login/quit.html">退出登录</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+
+        <ul class="nav">
+       
+                        <li class="Company">
+                <a href="{:U('Company/index')}">
+                    <i class="pe-7s-credit"></i>
+                    <p>公司信息</p>
+                </a>
+            </li>
+                 <li class="Index">
+                <a href="__APP__/Index/index.html">
+                    <i class="pe-7s-cash"></i>
+                    <p>轮播图管理</p>
+                </a>
+            </li>
+            
+            <li class="News">
+                <a class="News-a" data-toggle="collapse" href="#tablesExamples">
+                    <i class="pe-7s-news-paper"></i>
+                    <p>资讯管理
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse News-div" id="tablesExamples">
+                    <ul class="nav">
+                        <li class="News-index"><a href="{:U('News/index')}">资讯列表</a></li>
+                        <li class="News-add"><a href="{:U('News/add')}">资讯添加</a></li>
+                        <li class="News-category"><a href="{:U('News/category')}">资讯分类</a></li>
+                        <!-- <li class="Industry-menu"><a href="__APP__/Industry/menu.html">添加案例</a></li> -->
+                    </ul>
+                </div>
+            </li>
+
+            <li class="Partner">
+                <a class="Partner-a" data-toggle="collapse" href="#partnerExamples">
+                    <i class="pe-7s-users"></i>
+                    <p>合伙人体系管理
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse Partner-div" id="partnerExamples">
+                    <ul class="nav">
+                        <li class="Partner-index"><a href="{:U('Partner/index')}">城市列表</a></li>
+                        <li class="Partner-edit_us"><a href="{:U('Partner/edit_us')}">联系我们</a></li>
+                        <!-- <li class="Industry-menu"><a href="__APP__/Industry/menu.html">添加案例</a></li> -->
+                    </ul>
+                </div>
+            </li>
+          
+          <!--   <li class="Blogroll">
+                <a href="{:U('Blogroll/index')}">
+                    <i class="pe-7s-smile"></i>
+                    <p>友情链接</p>
+                </a>
+            </li> -->
+
+
+
+            <li class="Oneself">
+                <a class="Oneself-a" data-toggle="collapse" href="#pagesExamples">
+                    <i class="pe-7s-config"></i>
+                    <p>个人中心
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse Oneself-div" id="pagesExamples">
+                    <ul class="nav">
+                   <!--      <li class="Oneself-update_data"><a href="__APP__/Oneself/update_data.html">修改个人资料</a></li> -->
+                        <li class="Oneself-update_pwd"><a href="__APP__/Oneself/update_pwd.html">修改登录密码</a></li>
+                        <li class="quit"><a href="__APP__/Login/quit.html">退出登录</a></li>
+                    </ul>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <div class="sidebar-background" style="background-image: url(__ROOT__/public/img/effect/full-screen-image-3.jpg); display: block;"></div>
+</div>

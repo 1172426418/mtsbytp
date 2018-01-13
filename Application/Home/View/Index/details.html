@@ -1,0 +1,85 @@
+<include file="Public:header" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/details.css">
+
+
+    <section class="content">
+        <div class="c-e">
+            <!-- 搜索 -->
+            <form class="search" action="" method="get">
+
+
+                <div class="input-group">
+
+                    <input type="text" class="form-control" placeholder="全站搜索">
+
+                    <span class="input-group-btn">
+                        <input class="btn btn-default" type="submit" value="">
+                    </span>
+                </div>
+
+
+            </form>
+
+
+            <!-- 导航 -->
+            <article class="clear">
+                <!-- 导航左 -->
+                <nav class="nav-left">
+                    <ul>
+                        <li>
+                            产业分类
+                        </li>
+
+                        <foreach name="left_navigation" item="vo">
+                            <li <if condition="$category_id eq $vo['category_id']"> class="left-active"</if> >
+                            <a href="{:U('Index/index',array('category_id'=>$vo['category_id']))}">{$vo.category_name}</a>
+                            </li>
+                        </foreach>
+   
+                    </ul>
+                </nav>
+
+                <!-- 导航上 -->
+                <nav class="nav-top">
+                    <ul>
+                        <li <if condition="$category_id eq ''"> class="top-active"</if> >
+                            <a href="__ROOT__">网站首页</a>
+                        </li>
+                        <foreach name="top_navigation" item="vo">
+                            <li <if condition="$category_id eq $vo['category_id']"> class="top-active"</if> >
+                            <a href="{:U('Index/index',array('category_id'=>$vo['category_id']))}">{$vo.category_name}</a>
+                            </li>
+                        </foreach>
+
+                        <li>
+                            <a href="{:U('Index/linkus')}">联系我们</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- 内容区 -->
+                <article class="cont-box">
+                    <!-- 内容 -->
+                    <div class="news">
+                        <h3>{$result.title}</h3>
+
+                        <div class="contents">{$result.content|htmlspecialchars_decode=###}</div>
+                    </div>
+
+                </article>
+
+
+            </article>
+
+
+        </div>
+    </section>
+
+   
+
+
+
+
+<include file="Public:footer" />
+
+

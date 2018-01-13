@@ -1,0 +1,61 @@
+<include file="Public/header" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/report-detail.css">
+
+
+    <section class="report-content">
+        <div class="container">
+            <h1>
+                {$result.title}
+                <if condition="$result['state'] eq '0'">
+                                <span class="active-b">【受理中】</span>
+                                <elseif condition="$result['state'] eq '1'" />
+                                <span class="active-g">【已通过】</span>
+                                <else />
+                                <span class="active-r">【未通过】</span>
+                                </if>
+            </h1>
+            <div class="titel">
+                <span class="p1">
+                    被举报人：
+                    <span>{$result.bereport}</span>
+                </span>
+
+                <span class="p2">
+                    籍贯：
+                    <span>{$result.native_place}</span>
+                </span>
+                <span class="p3">
+                   {$result.addtime|date="Y-m-d",###}
+                </span>
+            </div>
+            <div class="content clear">
+                {$result.content}
+                <span class="p4">
+                    举报人：
+                    <span>{$result.report_id|get_user_byid}</span>
+                </span>
+
+            </div>
+
+            <if condition="$result['save_state'] eq '1'">
+            <div class="c-btn">
+
+                <span class="ye-b">接受保全令(被举报人已发起保全令)</span>
+            </div>
+            <elseif  condition="$result['save_state'] eq '2'" />
+               <div class="c-btn">
+
+                <span class="ye-b">审核中</span>
+            </div>
+            <else />
+
+        </if>
+        </div>
+    </section>
+
+
+
+
+
+
+<include file="Public/footer" />

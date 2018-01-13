@@ -1,0 +1,212 @@
+
+    <section class="footer hidden-xs">
+        <div class="container flex-foo clear">
+            <div class="foo1 fmr">
+                <dl>
+                    <dt>快速链接</dt>
+                    <dd>
+                        <a href="{:U('Index/Protocol#about')}">关于我们</a>
+                        <a href="">版权政策</a>
+                    </dd>
+                    <dd>
+                        <a href="{:U('Index/Protocol#server')}">服务协议</a>
+                        <a href="">权利通知</a>
+                    </dd>
+                    <dd>
+                        <a href="{:U('Index/Protocol#disclaimer')}">免责声明</a>
+                        <a href="">数据服务</a>
+                    </dd>
+                    <dd>
+                        <a href="">企业名录</a>
+                        <a href="">人员名录</a>
+                    </dd>
+                    <dd>
+                        <a href="">品牌名录</a>
+                        <a href="">500强</a>
+                    </dd>
+                    <dd>
+                        <a href="">商务通道</a>
+                        <a href="">名词解释</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="foo2">
+                <dl>
+                    <dt>数据来源</dt>
+                    <dd>
+                        <a href="">全国企业信用信息公示系统</a>
+                    </dd>
+                    <dd>
+                        <a href="">中国裁判文书网</a>
+                    </dd>
+                    <dd>
+                        <a href="">中国执行信息公开网</a>
+                    </dd>
+                    <dd>
+                        <a href="">国家知识产权局</a>
+                    </dd>
+                    <dd>
+                        <a href="">商标局</a>
+                    </dd>
+                    <dd>
+                        <a href="">版权局</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="foo3">
+                <dl>
+                    <dt>联系我们</dt>
+                    <dd>
+                        电 话：{$Think.config.tel}
+                    </dd>
+                    <dd>
+                        工作时间：{$Think.config.worktime}
+                    </dd>
+                    <dd>
+                        在线客服：{$Think.config.onqq}
+                    </dd>
+                    <dd>
+                        商务合作：{$Think.config.email}
+                    </dd>
+                </dl>
+                <div class="f-btn">
+                    <span>
+                        <a href="">投诉</a>
+                    </span>
+                    <span>
+                        <a href="">在线咨询</a>
+                    </span>
+                    <span>
+                        <a href="">新浪微博</a>
+                    </span>
+                </div>
+
+            </div>
+            <div class="foo4 fmr">
+                <dl>
+                    <dt>友情链接</dt>
+                    <dd>
+                        <a href="">互动百科</a>
+                        <a href="">法律诉讼查询</a>
+                    </dd>
+                    <dd>
+                        <a href="">高新企业查询</a>
+                        <a href="">失信人查询</a>
+                    </dd>
+                    <dd>
+                        <a href="">P2P企业查询</a>
+                        <a href="">被执行人查询</a>
+                    </dd>
+                    <dd>
+                        <a href="">新三板企业查询</a>
+                        <a href="">经营异常查询</a>
+                    </dd>
+                    <dd>
+                        <a href="">上市企业查询</a>
+                        <a href="">招投标查询</a>
+                    </dd>
+                    <dd>
+                        <a href="">私募基金查询</a>
+                        <a href="">招聘查询</a>
+                    </dd>
+                    <dd>
+                        <a href="">公务基金查询</a>
+                        <a href="">商标查询</a>
+                    </dd>
+                    <dd>
+                        <a href="">企业大数据导航</a>
+                        <a href="">专利查询</a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="foo5">
+              
+                <div class="f-last1">
+                    <dl>
+                        <dt>微信公众号</dt>
+                        <dd>
+                            <img src="__ROOT__/{$qrcode[9]['image']}" alt="">
+                        </dd>
+                    </dl>
+                </div>
+           
+                <div class="f-last">
+                    <dl>
+                        <dt>微信公众号</dt>
+                        <dd>
+                            <img src="__ROOT__/{$qrcode[10]['image']}" alt="">
+                        </dd>
+                    </dl>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+  
+
+
+    <section class="mb-footer visible-xs-block">
+        <div>
+            <i class="disc"></i>
+            <span>电话：13580897864</span>
+        </div>
+
+        <div>
+            <i class="disc"></i>
+            <span>商务合作：bd@msw110.com</span>
+        </div>
+    </section>
+
+
+
+   
+<!--     </script> -->
+
+</body>
+
+</html>
+
+   <script src="__ROOT__/public/home/js/jquery.min.js"></script>
+    <script src="__ROOT__/public/home/js/bootstrap.min.js"></script>
+
+
+   <script>
+        $(function () {
+                function tip(msg){
+        $(".modal-body").html(msg);
+        $('#tip').modal('toggle');
+    }
+            dropNav(".head2 .signl, .head2 ul",".head2 ul");
+
+            function dropNav(li_ul, dropUl) {
+                var $oUl = $(dropUl);
+            
+                $(li_ul).mouseover(function () {
+                    $oUl.stop(true, false).slideDown(100);
+                }).mouseout(function () {
+                    $oUl.stop(true, false).slideUp(100);
+                });
+            }
+
+             var b = true;
+            var $ul = $(".head2 ul");
+
+            $(".signl").click(function () {
+
+                if (b) {
+                    $ul.stop(true, false).slideDown(100);
+                    b = false;
+                } else  {
+                    $ul.stop(true, false).slideUp(100);
+                    b = true;
+                }
+
+            })
+                            
+
+
+        })
+    </script>

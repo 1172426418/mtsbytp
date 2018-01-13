@@ -1,0 +1,44 @@
+   
+    <include file="Public/header" />
+    <link rel="stylesheet" href="__ROOT__/public/home/css/search-list.css">
+    <section class="seal-search">
+        <div class="container">
+
+           
+
+            <div class="seal-lists">
+                <ul>
+                	<foreach name="list" item="vo">
+                    <li>
+                        <a href="{:U('Praise/details',array('id'=>$vo['id']))}">
+                            <div class="sl-cont">
+                                <span>{$vo.title}</span>
+                                <span class="seal-time">{$vo.addtime|date='Y-m-d',###}</span>
+                            </div>
+                            <p>被表扬人：{$vo.bereport}</p>
+
+                        </a>
+                    </li>
+                </foreach>
+       
+                </ul>
+            </div>
+
+
+
+        </div>
+
+            <!-- 分页 -->
+            <div class="seal-page">
+
+                 
+                    	{$page}
+     
+                    </ul> 
+                </div>
+
+    </section>
+
+    <include file="Public/footer" />
+    
+

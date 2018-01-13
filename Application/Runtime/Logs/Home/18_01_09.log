@@ -1,0 +1,808 @@
+[ 2018-01-09T09:18:07+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004163s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: user E:\wamp\www\xmcy\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ms_event` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ms_case` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 2 ORDER BY id desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`addtime`,`image` FROM `ms_case` ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`addtime`,`image`,`abstract` FROM `ms_news` ORDER BY id desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE `is_see` = 1 AND ( id < 9 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012109s ]
+
+[ 2018-01-09T09:18:10+08:00 ] 127.0.0.1 /xmcy/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+ERR: 无法加载控制器:A
+
+[ 2018-01-09T09:18:18+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T09:18:20+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T09:18:21+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T09:18:37+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: user E:\wamp\www\xmcy\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ms_event` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_case` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 2 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`addtime`,`image` FROM `ms_case` ORDER BY id desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`addtime`,`image`,`abstract` FROM `ms_news` ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE `is_see` = 1 AND ( id < 9 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-01-09T09:18:39+08:00 ] 127.0.0.1 /xmcy/index.php/Report/details/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_event` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_event` WHERE `id` = 16 AND `state` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_recent` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `ms_recent` WHERE `event_id` = 16 ORDER BY addtime desc LIMIT 20   [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `ms_comment` [ RunTime:0.0640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_comment` WHERE `event_id` = 16 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0169s ]
+SQL: SELECT * FROM `ms_comment` WHERE `event_id` = 16 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0173s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `qq` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: user_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\578377d02c535da391338bdc25a71682.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2018-01-09T09:20:32+08:00 ] 127.0.0.1 /xmcy/index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2018-01-09T10:04:33+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: user E:\wamp\www\xmcy\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ms_event` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ms_case` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 2 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`addtime`,`image` FROM `ms_case` ORDER BY id desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`addtime`,`image`,`abstract` FROM `ms_news` ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE `is_see` = 1 AND ( id < 9 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2018-01-09T10:04:36+08:00 ] 127.0.0.1 /xmcy/index.php/Report/details/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_event` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ms_event` WHERE `id` = 16 AND `state` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_recent` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ms_recent` WHERE `event_id` = 16 ORDER BY addtime desc LIMIT 20   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_comment` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_comment` WHERE `event_id` = 16 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_comment` WHERE `event_id` = 16 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0011s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `qq` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: user_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\578377d02c535da391338bdc25a71682.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2018-01-09T10:04:38+08:00 ] 127.0.0.1 /xmcy/index.php/Report/details/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002265s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0017s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_event` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_event` WHERE `id` = 16 AND `state` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_recent` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ms_recent` WHERE `event_id` = 16 ORDER BY addtime desc LIMIT 20   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_comment` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_comment` WHERE `event_id` = 16 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_comment` WHERE `event_id` = 16 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0012s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `qq` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: user_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\578377d02c535da391338bdc25a71682.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-01-09T10:04:41+08:00 ] 127.0.0.1 /xmcy/index.php/Case/details/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_case` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms_case` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002700s ]
+
+[ 2018-01-09T10:52:46+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ms_event` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ms_case` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`addtime`,`bereport` FROM `ms_event` WHERE `state` = 1 AND `type` = 2 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`addtime`,`image` FROM `ms_case` ORDER BY id desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`addtime`,`image`,`abstract` FROM `ms_news` ORDER BY id desc LIMIT 3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE `is_see` = 1 AND ( id < 9 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2018-01-09T10:52:49+08:00 ] 127.0.0.1 /xmcy/index.php/Report/details/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`image`,`address` FROM `ms_image` WHERE ( id > 8 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_blogroll` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms_blogroll` WHERE `state` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_event` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ms_event` WHERE `id` = 28 AND `state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_recent` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ms_recent` WHERE `event_id` = 28 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `ms_recent` SET `addtime`='1515466368' WHERE `event_id` = 28 AND `user_id` = 1 [ RunTime:0.0274s ]
+SQL: SELECT * FROM `ms_recent` WHERE `event_id` = 28 ORDER BY addtime desc LIMIT 20   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ms_comment` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_comment` WHERE `event_id` = 28 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_comment` WHERE `event_id` = 28 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `qq` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `realname` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tel` FROM `ms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2018-01-09T11:11:04+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T11:28:12+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T11:28:59+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T11:29:01+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T15:54:59+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:18:00+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:18:45+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:18:59+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:21:38+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:22:37+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:24:15+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:27:02+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:28:33+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:29:04+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:29:06+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:29:39+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:30:15+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:30:49+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:32:13+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:33:21+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:33:33+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:33:39+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:33:44+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:34:37+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:34:44+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:35:26+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:35:36+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:40:18+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:42:06+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:42:11+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:42:27+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:45:27+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:45:36+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:46:31+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:47:21+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:50:42+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:50:50+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T16:51:25+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:29:49+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:30:10+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:30:29+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:33:41+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:44:35+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:44:36+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:45:32+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:48:35+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:48:58+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:50:18+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:50:50+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T17:52:20+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T18:13:42+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-09T18:13:48+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+

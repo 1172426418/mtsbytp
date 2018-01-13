@@ -1,0 +1,50 @@
+  
+<include file="Public/header" />
+
+       <link rel="stylesheet" href="__ROOT__/public/home/css/per-token.css">
+    <section class="per-box">
+        <div class="center-element clear">
+            <!-- 左边 -->
+<!--    <include file="Public/UserMenu" />    -->     
+
+            <!-- 右边 -->
+            <article class="per-cont">
+                <div class="title">
+                    <span>我的保全令</span>
+                    <div class="my-tk">
+                        <span class="tk-active">我发起的</span>
+                        <span><a href="{:U('User/MyBesave')}">我收到的</a></span>
+                    </div>
+                </div>
+                <div class="cont-list">
+                    <ul class="rp-ta item-ul">
+                        <foreach name="list" item="vo">
+                        <li>
+                            <a  href="{:U('User/MyBereportDetails',array('id'=>$vo['id']))}">
+                                {$vo.title}
+                                <if condition="$vo['state'] eq '0'">
+                                <span class="active-b">【受理中】</span>
+                                <elseif condition="$vo['state'] eq '1'" />
+                                <span class="active-g">【已通过】</span>
+                                <else />
+                                <span class="active-r">【未通过】</span>
+                                </if>
+                                 <span class="time">{$vo.addtime|date='Y-m-d',###}</span>
+                            </a>
+                            <!-- <i class="del"></i> -->
+                        </li>
+                    </foreach>
+                {$page}
+                    </ul>
+
+                   
+          
+                  
+                </div>
+            </article>
+        </div>
+
+    </section>
+    <include file="Public/footer" />
+ 
+

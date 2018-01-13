@@ -1,0 +1,99 @@
+<include file="Public/header" />
+<link rel="stylesheet" type="text/css" href="__ROOT__/public/home/css/per-mb.css">
+    <section class="per-box pb-mb">
+        <div class="center-element clear">
+            <!-- 左边 -->
+            <article class="per clear">
+                <div class="pr-1">
+                    <img class="center-block" src="__ROOT__/public/home/img/i11.png" alt="">
+                </div>
+                <div class="pr-2">
+                    <span>{$result.realname}</span>
+                    <span class="af-img">
+                      <if condition="$result['is_authenticate'] neq '1'">
+                        <img src="__ROOT__/public/home/img/i12-mb.png" alt="">
+                        <else /><img src="__ROOT__/public/home/img/i13-mb.png" alt=""></if>
+                    </span>
+                </div>
+                <div class="pr-3 clear">
+                    <div>
+                        <a href="{:U('User/MyMoney')}">
+                            <img src="__ROOT__/public/home/img/i8.png" alt="">
+                            <p>余额</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="{:U('User/UserPay')}">
+                            <img src="__ROOT__/public/home/img/i9.png" alt="">
+                            <p>充值</p>
+
+                        </a>
+                    </div>
+                    <div>
+                        <a href="{:U('User/UserCash')}">
+                            <img src="__ROOT__/public/home/img/i10.png" alt="">
+                            <p>提现</p>
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <section class="pm-list">
+
+    
+                    <ul>
+
+                        <li>
+                            <i class="i1"></i>
+
+                            <a  href="{:U('User/EditProfile')}">个人资料</a>
+                        </li>
+                        <li>
+                            <i class="i2"></i>
+                            <a href="{:U('User/MyRelease')}">我的表扬</a>
+                        </li>
+                        <li>
+                            <i class="i3"></i>
+                            <a href="{:U('User/MyReport')}">我的举报</a>
+                        </li>
+                        <li>
+                            <i class="i4"></i>
+                            <a href="{:U('User/MySave')}">我的保全令</a>
+                        </li>
+                        <li>
+                            <i class="i5"></i>
+                            <a href="{:U('User/MyComment')}">我的留言</a>
+                        </li>
+                        <li>
+                            <i class="i6"></i>
+                            <a href="{:U('User/Authenticate')}">认证</a>
+                        </li>
+                    </ul>
+                
+
+
+    </section>
+
+    <section class="pm-per">
+        <ul>
+            <li>
+                <a href="{:U('User/ChangePwd')}">修改密码</a>
+            </li>
+            <li>
+                <a href="{:U('User/Loginout')}">退出登录</a>
+            </li>
+        </ul>
+
+    </section>
+
+     <include file="Public/footer" />

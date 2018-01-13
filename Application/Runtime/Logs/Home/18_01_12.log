@@ -1,0 +1,1501 @@
+[ 2018-01-12T09:07:39+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2018-01-12T09:16:03+08:00 ] 127.0.0.1 /xmcy/index.php/Index/details/news_id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ms_news` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 103 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2018-01-12T09:16:09+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2018-01-12T09:16:10+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/category_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2018-01-12T09:16:12+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/category_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 2 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 2 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2018-01-12T09:16:15+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2018-01-12T09:24:26+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+ERR: syntax error, unexpected '{'
+
+[ 2018-01-12T09:24:42+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+
+[ 2018-01-12T09:25:06+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2018-01-12T09:25:12+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index.html?search=%E5%85%A8%E8%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `title` LIKE '%全能%' ORDER BY addtime desc LIMIT 1   [ RunTime:0.0267s ]
+SQL: SELECT * FROM `ms_news` WHERE `title` LIKE '%全能%' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2018-01-12T09:25:16+08:00 ] 127.0.0.1 /xmcy/index.php/Index/details/news_id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_news` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 103 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2018-01-12T09:25:21+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2018-01-12T09:25:29+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index.html?search=%E4%B9%A0%E8%BF%91%E5%B9%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `title` LIKE '%习近平%' ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` WHERE `title` LIKE '%习近平%' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2018-01-12T09:25:33+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2018-01-12T09:25:42+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 10,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-01-12T09:25:51+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index.html?search=%E4%B9%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `title` LIKE '%习%' ORDER BY addtime desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` WHERE `title` LIKE '%习%' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-01-12T09:26:09+08:00 ] 127.0.0.1 /xmcy/index.php/Index/details/partner/%E6%96%B0%E7%96%86.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_partner` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_partner` WHERE `title` LIKE '%新疆%' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 93 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 103 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2018-01-12T09:33:48+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index.html?search=%E4%B9%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `title` LIKE '%习%' ORDER BY addtime desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` WHERE `title` LIKE '%习%' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2018-01-12T09:33:49+08:00 ] 127.0.0.1 /xmcy/index.php/Index/details/news_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_news` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 105 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2018-01-12T09:33:55+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/category_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2018-01-12T09:33:57+08:00 ] 127.0.0.1 /xmcy/index.php/Index/details/news_id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_news` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 105 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2018-01-12T09:34:02+08:00 ] 127.0.0.1 /xmcy/index.php/Index/details/news_id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_news` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 105 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2018-01-12T09:56:07+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2018-01-12T09:56:11+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 10,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2018-01-12T09:56:12+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2018-01-12T09:56:20+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 10,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2018-01-12T11:54:25+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2018-01-12T11:54:40+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/category_id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 12 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 12 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2018-01-12T11:54:42+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/category_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 8 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 8 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2018-01-12T11:54:44+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/category_id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 9 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 9 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2018-01-12T11:54:45+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/category_id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 10 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 10 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2018-01-12T11:54:46+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/category_id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 7 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 7 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2018-01-12T11:54:49+08:00 ] 127.0.0.1 /xmcy/index.php/Index/details/news_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 95 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 105 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\37214a01e04274e0039680059f673b9e.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2018-01-12T11:54:54+08:00 ] 127.0.0.1 /xmcy/index.php/Index/index/category_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY addtime desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2018-01-12T13:47:34+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-12T13:47:47+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-12T13:47:49+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-12T13:47:50+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-12T13:47:58+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-12T13:48:06+08:00 ] 127.0.0.1 /xmcy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_image` WHERE `is_see` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id < 6 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_category` WHERE ( category_id > 5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY addtime desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_news` ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined variable: result E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 15 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-01-12T13:48:29+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-12T13:48:36+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-12T13:48:45+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-12T13:48:52+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+
+[ 2018-01-12T13:49:34+08:00 ] 127.0.0.1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+

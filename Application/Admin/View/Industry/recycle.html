@@ -1,0 +1,233 @@
+﻿<!--头部文件-->
+<include file="Public/header"/>
+<!--头部文件结束-->
+
+
+<div class="wrapper">
+    <!--左侧菜单栏-->
+    <include file="Public/menu"/>
+    <!--左侧菜单栏结束-->
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-minimize">
+                    <button id="minimizeSidebar" class="btn btn-warning btn-fill btn-round btn-icon">
+                        <i class="fa fa-ellipsis-v visible-on-sidebar-regular"></i>
+                        <i class="fa fa-navicon visible-on-sidebar-mini"></i>
+                    </button>
+                </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">回收站</a>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="content">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="div_button" style="margin-bottom:5px;">
+                            <form id="search_form" action="__APP__/Industry/recycle.html" method="post">
+                                <select name="navi_id" class="navi_id">
+                                    <option value="no">搜索类别</option>
+                                    <option value="0">--</option>
+                                    <foreach name="navigation" item="v">
+                                        <option value="{$v.id}" data-id="{$v.id}">{$v.menu}</option>
+                                    </foreach>
+                                </select>
+                                <input name="search" class="search" type="text" placeholder="搜索标题或作者">
+                                <input class="search_button" type="button" value="搜索">
+                                <input class="button" id="industry_restore" type="button" value="还原" style="margin-left:1%;">
+                                <input class="button" id="industry_delete" type="button" value="彻底删除">
+                            </form>
+                        </div>
+                        <div class="card">
+                            <div class="toolbar">
+                                <!--        Here you can write extra buttons/actions for the toolbar              -->
+                            </div>
+
+                            <table id="bootstrap-table" class="table">
+                                <thead>
+                                <th data-field="state" data-checkbox="true" class="text-center">
+                                    <input id="user-check" type="checkbox">
+                                </th>
+                                <th data-field="id" class="text-center">缩略图</th>
+                                <th data-field="name" data-sortable="true" class="text-center">标题</th>
+                                <th data-field="salary" data-sortable="true" class="text-center">类别</th>
+                                <th data-field="country" data-sortable="true" class="text-center">作者</th>
+                                <th data-field="city" class="text-center">上传时间</th>
+                                <th data-field="state" class="text-center">状态（是否显示）</th>
+                                <th data-field="actions" class="td-actions text-center" data-events="operateEvents" data-formatter="operateFormatter">管理</th>
+                                </thead>
+                                <tbody>
+                                <foreach name="production" item="v">
+                                    <tr align="center">
+                                        <td><input class="user-check" data-id="{$v.navi_id}" value="{$v.id}" type="checkbox"></td>
+                                        <td style="width:10%;padding:4px 0;">
+                                            <img src="__ROOT__/{$v.path}" style="width:100px;height:70px;">
+                                        </td>
+                                        <td>{$v.title}</td>
+                                        <td>{$v.menu}</td>
+                                        <td>{$v.author}</td>
+                                        <td>{$v.date}</td>
+                                        <td class="select-state" data-id="{$v.id}">
+                                            <if condition="$v['state']==1">
+                                                <img src="__ROOT__/public/img/effect/checked.png">
+                                                <else/>
+                                                <img src="__ROOT__/public/img/effect/unchecked.png">
+                                            </if>
+
+                                        </td>
+                                        <td class="effect">
+                                            <img src="__ROOT__/public/img/effect/update.png" onclick="window.location.href='__APP__/Industry/edit/id/{$v.id}/type/recycle.html'" alt="编辑" title="编辑">&nbsp;&nbsp;
+                                            <img class="industry_delete" data-state="{$v.state}" data-id="{$v.id}" data-src="__APP__/Industry/delete/id/{$v.id}.html" src="__ROOT__/public/img/effect/delete.png" alt="彻底删除" title="彻底删除">
+                                        </td>
+                                    </tr>
+                                </foreach>
+
+                                <tr class="text-center">
+                                    <td colspan="8" class="paging">
+                                        <span>
+                                            第<span> {$nowpage} </span>页 / 共<span> {$pages} </span>页
+                                         </span>
+                                        <span style="padding-left:20px;">
+                                          <a src="__APP__/Industry/recycle/id/1.html">首页</a>
+                                          <a src="__APP__/Industry/recycle/id/{$nowpage-1}.html">上一页</a>
+                                             <for start="-3" end="0">
+                                                 <if condition="($nowpage+$i) gt 0">
+                                                    <a src="__APP__/Industry/recycle/id/{$nowpage+$i}.html">{$nowpage+$i}</a>
+                                                 </if>
+                                              </for>
+                                            <a id="now" style="color:red">{$nowpage}</a>
+                                                 <for start="1" end="4">
+                                                    <if condition="($nowpage+$i) elt $pages">
+                                                       <a src="__APP__/Industry/recycle/id/{$nowpage+$i}.html">{$nowpage+$i}</a>
+                                                    </if>
+                                                 </for>
+                                            <a src="__APP__/Industry/recycle/id/{$nowpage+1}.html">下一页</a>
+                                            <a src="__APP__/Industry/recycle/id/{$pages}.html">最后一页</a>
+                                          </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div><!--  end card  -->
+                    </div> <!-- end col-md-12 -->
+                </div> <!-- end row -->
+
+            </div>
+        </div>
+
+        <!--底部文件-->
+        <include file="Public/footer"/>
+        <!--底部文件结束-->
+
+
+    </div>
+</div>
+
+</body>
+<!--   Core JS Files and PerfectScrollbar library inside jquery.ui   -->
+<script src="__ROOT__/public/js/jquery.min.js" type="text/javascript"></script>
+<script src="__ROOT__/public/js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="__ROOT__/public/js/bootstrap.min.js" type="text/javascript"></script>
+<!--  Forms Validations Plugin -->
+<script src="__ROOT__/public/js/jquery.validate.min.js"></script>
+<!--  Plugin for Date Time Picker and Full Calendar Plugin-->
+<script src="__ROOT__/public/js/moment.min.js"></script>
+<!--  Date Time Picker Plugin is included in this js file -->
+<script src="__ROOT__/public/js/bootstrap-datetimepicker.js"></script>
+<!--  Select Picker Plugin -->
+<script src="__ROOT__/public/js/bootstrap-selectpicker.js"></script>
+<!--  Checkbox, Radio, Switch and Tags Input Plugins -->
+<script src="__ROOT__/public/js/bootstrap-checkbox-radio-switch-tags.js"></script>
+<!--  Charts Plugin -->
+<script src="__ROOT__/public/js/chartist.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="__ROOT__/public/js/bootstrap-notify.js"></script>
+<!-- Sweet Alert 2 plugin -->
+<script src="__ROOT__/public/js/sweetalert2.js"></script>
+<!-- Vector Map plugin -->
+<script src="__ROOT__/public/js/jquery-jvectormap.js"></script>
+<!--  Google Maps Plugin    -->
+<script src="__ROOT__/public/js/aa743e8f448a4792bad10d201a7080f6.js"></script>
+<!-- Wizard Plugin    -->
+<script src="__ROOT__/public/js/jquery.bootstrap.wizard.min.js"></script>
+<!--  Bootstrap Table Plugin    -->
+<script src="__ROOT__/public/js/bootstrap-table.js"></script>
+<!--  Plugin for DataTables.net  -->
+<script src="__ROOT__/public/js/jquery.datatables.js"></script>
+<!--  Full Calendar Plugin    -->
+<script src="__ROOT__/public/js/fullcalendar.min.js"></script>
+<!-- Light Bootstrap Dashboard Core javascript and methods -->
+<script src="__ROOT__/public/js/light-bootstrap-dashboard.js"></script>
+<!--   Sharrre Library    -->
+<script src="__ROOT__/public/js/jquery.sharrre.js"></script>
+<!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+<script src="__ROOT__/public/js/demo.js"></script>
+
+<script src="__ROOT__/public/js/new_js.js"></script>
+<script>
+    $('li.Industry').addClass('active');
+    $('a.Industry-a').attr('aria-expanded','true');
+    $('div.Industry-div').addClass('in');
+    $('li.Industry-recycle').addClass('active');
+
+    $('.search_button').click(function(){
+        $('#search_form').submit();
+    })
+</script>
+<script>
+    //删除单个
+    $('.industry_delete').click(function(){
+        var url=$(this).attr('data-src');
+        Double_button('确定删除该产品吗？',url);
+    })
+
+    //删除多个
+    $('#industry_delete').click(function(){
+        var id = '';
+        $('.user-check:checked').each(function(){
+            id = id+','+$(this).val();
+        })
+        if(id != ''){
+            var url='__APP__/Industry/delete/id/'+id;
+            Double_button('确定删除选中的产品吗？',url);
+        }
+    })
+
+    //还原
+    $('#industry_restore').click(function(){
+        var id = '';
+        $('.user-check:checked').each(function(){
+            id = id+','+$(this).val();
+            if($(this).attr('data-id')==0){
+                One_button('没有类别的产品无法恢复，请先修改类别');
+                exit;
+            }
+        })
+        if(id != ''){
+            window.location.href='__APP__/Industry/restore/id/'+id;
+        }
+    })
+
+    $('.paging a').click(function(){
+        var url=$(this).attr('src');
+        $('#search_form').attr('action',url).submit().submit();
+    })
+</script>
+<script>
+    if("{$post['navi_id']}"){
+        var data="{$post['navi_id']}";
+        $('.navi_id option[value='+data+']').prop('selected','selected');
+    }
+    if("{$post['search']}"){
+        var data="{$post['search']}";
+        $('.search').val(data);
+    }
+</script>
+</html>

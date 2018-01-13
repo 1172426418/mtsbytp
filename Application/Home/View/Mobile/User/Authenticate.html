@@ -1,0 +1,59 @@
+  
+<include file="Public/header" />
+   <link rel="stylesheet" href="__ROOT__/public/home/css/per-att.css">
+    <section class="per-box">
+        <div class="center-element clear">
+
+           <article class="per-cont">
+                <div class="title">
+                    <span>认证</span>
+                </div>
+                <div class="cont-att">
+                  <if condition="$result['is_authenticate'] eq 0 ">
+                    <form action="{:U('User/Authenticate')}" enctype="multipart/form-data" method="post">
+                        <span>证件照片：</span>
+                        <input id="lefile" type="file" name="photo" style="display:none">
+                        <div class="input-append">
+                            <input id="photoCover" class="input-large " type="text" value="格式为jpg,png,jpeg">
+                            <span class="file-click hidden-xs">上传</span>
+                        </div>
+                        <p>（个人上传手持身份证照片，企业上传营业执照三证合一扫描件）</p>
+                        <p style="color: red">在未认证之前，您不可发布举报</p>
+                        <input id="sub" type="submit" value="提交">
+     
+                    </form>
+                    <elseif condition="$result['is_authenticate'] eq 2"/>
+
+                    <input id="but" type="button" value="审核中  ">
+                    <else />
+                    <input id="but" type="button" value="已认证">
+                  </if>
+                </div>
+            </article>
+        </div>
+
+    </section>
+    <include file="Public/footer" />
+    <script>
+         $(function () {
+
+            var w = $(window).width();
+           if(w<769){
+               var $por = $("#photoCover");
+               $por.val("上传");
+           
+           }
+
+            $(".file-click,#photoCover").click(function () {
+                $('#lefile').click();
+            });
+
+            $('#lefile').change(function () {
+                $('#photoCover').val($(this).val());
+
+            })
+
+
+        })
+ 
+    </script>

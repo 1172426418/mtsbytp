@@ -1,0 +1,80 @@
+<script>
+    (function () {
+        var win = document.documentElement.clientWidth;
+        if (win < 768) {
+            window.location.href = "__APP__/Successful/moblie.html";
+
+        }
+    }());
+
+</script>
+
+    <!-- 公共头部开始 -->
+<include file="Public/header"/>
+    <!-- 公共头部结束 -->
+
+
+
+    <!-- 主体部分 -->
+    <section class="case-sec">
+        <div class="container">
+            <div class="case-tab">
+                <ul>
+                    <foreach name="navi" item="v">
+                        <li data-id="{$v.id}"><a href="__APP__/Successful/index/navi/{$v.id}.html">{$v.menu}</a></li>
+                    </foreach>
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+            <div class="case-tabcont">
+                    <foreach name="products" item="v">
+                        <div class="cata-box">
+                            <img class="img-responsive" src="__ROOT__/{$v.path}" alt="">
+                        </div>
+                    </foreach>
+                <div class="clear"></div>
+            </div>
+
+            <div class="case-page pages">
+                <ul class="pager">
+                    <li><a href="#">共<span>{$num}</span>条</a></li>
+                    <li><a href="__APP__/Successful/index/id/{$nowpage-1}/navi/{$now_navi}.html">上一页</a></li>
+                    <for start="-3" end="0">
+                        <if condition="($nowpage+$i) gt 0">
+                            <li><a href="__APP__/Successful/index/id/{$nowpage+$i}/navi/{$now_navi}.html">{$nowpage+$i}</a></li>
+                        </if>
+                    </for>
+                    <li><a id="now" href="javascript:" style="border:none">{$nowpage}</a></li>
+                    <for start="1" end="4">
+                        <if condition="($nowpage+$i) elt $pages">
+                            <li><a href="__APP__/Successful/index/id/{$nowpage+$i}/navi/{$now_navi}.html">{$nowpage+$i}</a></li>
+                        </if>
+                    </for>
+                    <li><a href="__APP__/Successful/index/id/{$nowpage+1}/navi/{$now_navi}.html">下一页</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 底部 -->
+    <include file="Public/footer"/>
+
+
+</body>
+    <script src="__ROOT__/public/home/js/case.js"></script>
+<script>
+    $('.successful').addClass('hoverClass');
+    $('.case-tab li[data-id={$now_navi}]').addClass('hover_li');
+
+    (function () {
+        var win = document.documentElement.clientWidth;
+        if (win < 768) {
+            window.location.href = "__APP__/Successful/moblie.html";
+
+        }
+    }());
+
+</script>
+</html>

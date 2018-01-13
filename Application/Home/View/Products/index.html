@@ -1,0 +1,72 @@
+
+<!-- 公共头部开始 -->
+<include file="Public/header"/>
+    <!-- 公共头部结束 -->
+
+    <!-- 第一部分 -->
+    <section class="product-sec">
+        <div class="container">
+            <h1>文艺 · 品牌产品中心</h1>
+            <hr/>
+            <p class="pro-text">跨越不同的行业与领域 始终与客户一同构建强大的有力的品牌 并不断创新改变</p>
+            <div class="product-tab hidden-xs">
+                <ul>
+                    <foreach name="navi" item="v">
+                        <li data-id="{$v.id}"><a href="__APP__/Products/index/navi/{$v.id}.html">{$v.menu}</a> <span>|</span></li>
+                    </foreach>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="product-tab-cont">
+                <div class="product-box">
+                    <foreach name="products" item="v">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <a href="__APP__/Products/content/id/{$v.id}.html"> <img class="img-responsive" src="__ROOT__/{$v.path}" alt="">
+                            </a>
+                            <p>{$v.title} <span>{$first_navi.menu}</span></p>
+                        </div>
+                    </foreach>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+            <div class="pages hidden-xs">
+                <ul class="pager">
+                    <li><a href="#">共<span>{$num}</span>条</a></li>
+                    <li><a href="__APP__/Products/index/id/{$nowpage-1}/navi/{$now_navi}.html">上一页</a></li>
+                    <for start="-3" end="0">
+                        <if condition="($nowpage+$i) gt 0">
+                            <li><a href="__APP__/Products/index/id/{$nowpage+$i}/navi/{$now_navi}.html">{$nowpage+$i}</a></li>
+                        </if>
+                    </for>
+                    <li><a id="now" href="javascript:" style="border:none">{$nowpage}</a></li>
+                    <for start="1" end="4">
+                        <if condition="($nowpage+$i) elt $pages">
+                            <li><a href="__APP__/Products/index/id/{$nowpage+$i}/navi/{$now_navi}.html">{$nowpage+$i}</a></li>
+                        </if>
+                    </for>
+                    <li><a href="__APP__/Products/index/id/{$nowpage+1}/navi/{$now_navi}.html">下一页</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+<!-- 底部 -->
+<include file="Public/footer"/>
+
+</body>
+<script>
+    $('.products').addClass('hoverClass');
+    (function () {
+        var win = document.documentElement.clientWidth;
+        if (win < 768) {
+            $(".carousel").empty();
+        }
+    }());
+</script>
+</html>
