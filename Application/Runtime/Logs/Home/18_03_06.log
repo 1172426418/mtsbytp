@@ -1,0 +1,7 @@
+[ 2018-03-06T09:03:38+08:00 ] ::1 /xmcy/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022928s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' E:\wamp\www\xmcy\Application\Home\Conf\tags.php 第 3 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\wamp\www\xmcy\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+

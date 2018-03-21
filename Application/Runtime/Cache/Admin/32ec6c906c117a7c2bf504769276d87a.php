@@ -150,7 +150,7 @@ Double_button('真的要删除选中的案例吗？',url);
             <div class="container">
                 <p class="copyright" align="center">
                    <!-- 2016 <a href="#">Creative Tim</a>, made with love for a better web -->
-                   CopyRight (C) 2017 名声网 All Rights Reserved 版权所有
+                   CopyRight (C) 2018 梦淘沙创业家族 All Rights Reserved 版权所有
                 </p>
             </div>
         </footer>

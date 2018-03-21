@@ -8,7 +8,7 @@
     <meta name="keywords" content="梦淘沙,创业,创业家族,创新,mengtaosha,梦淘沙创业家族" />
     <meta name="description" content="梦淘沙：让年轻成为你的资本，试着发现生活中的美。调整心态保持品味，用心经营青春无悔。" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
-    <link rel="icon" href="/xmcy/public/home/img/x-icon.jpg" type="image/x-icon" />
+    <link rel="icon" href="/xmcy/public/home/img/x-icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="/xmcy/public/home/css/bootstrap.min.css">
     <link rel="stylesheet" href="/xmcy/public/home/css/common.css">
     <link rel="stylesheet" href="/xmcy/public/home/css/index.css">
@@ -26,6 +26,8 @@
         <div class="logo">
             <img class="img-responsive center-block" src="/xmcy/public/home/img/logo_text.jpg" alt="">
         </div>
+<div class="c-e">
+    
 
 
         <!-- 轮播 -->
@@ -58,7 +60,7 @@
 
             </div>
         </div>
-
+</div>
 
     </section>
 
@@ -280,6 +282,7 @@
             <img class="img-responsive center-block" src="/xmcy/public/home/img/contact.jpg" alt="">
             <h6>梦淘沙创业家族工作室</h6>
             <p>手机：<?php echo ($config["linktel"]); ?> 丨 微信：<?php echo ($config["linkwx"]); ?> 丨 联系人：<?php echo ($config["linkman"]); ?> 丨 邮箱：<?php echo ($config["linkemail"]); ?> 丨 地址：<?php echo ($config["linkadress"]); ?></p>
+            <p><?php echo ($config["beian"]); ?> </p>
         </div>
     </section>
 

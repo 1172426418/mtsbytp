@@ -1,0 +1,1728 @@
+[ 2018-03-15T10:57:32+08:00 ] ::1 /xmcy/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ms_image`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 127 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 272 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 272 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 272 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2018-03-15T10:57:35+08:00 ] ::1 /xmcy/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` ORDER BY id desc LIMIT 0,13   [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-03-15T10:57:38+08:00 ] ::1 /xmcy/admin.php/News/index.html?category_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 0,13   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2018-03-15T10:57:42+08:00 ] ::1 /xmcy/admin.php/News/index.html?category_id=all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_news` ORDER BY id desc LIMIT 0,13   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2018-03-15T10:57:50+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/all/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` ORDER BY id desc LIMIT 13,13   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2018-03-15T10:57:50+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+
+[ 2018-03-15T10:57:52+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/all/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` ORDER BY id desc LIMIT 0,13   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2018-03-15T10:57:53+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2018-03-15T10:57:58+08:00 ] ::1 /xmcy/admin.php/News/index.html?category_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 0,13   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2018-03-15T10:58:18+08:00 ] ::1 /xmcy/admin.php/News/index.html?category_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2018-03-15T10:58:26+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 10,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2018-03-15T10:58:26+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2018-03-15T10:58:29+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2018-03-15T10:58:29+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2018-03-15T10:58:42+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 10,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2018-03-15T10:58:42+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2018-03-15T11:09:15+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` WHERE `category_id` = 1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2018-03-15T11:09:15+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-03-15T11:09:17+08:00 ] ::1 /xmcy/admin.php/News/index.html?category_id=all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2018-03-15T11:09:18+08:00 ] ::1 /xmcy/admin.php/News/index.html?category_id=all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2018-03-15T11:09:19+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/all/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_news` ORDER BY id desc LIMIT 10,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2018-03-15T11:09:19+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2018-03-15T11:09:22+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/all/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_news` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 126 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined variable: category_id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 244 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 274 行.
+SQL: SELECT `category_name` FROM `ms_category` WHERE `category_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 279 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 280 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 282 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 285 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 436 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 440 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 444 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2018-03-15T11:09:22+08:00 ] ::1 /xmcy/admin.php/News/index/category_id/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-03-15T13:41:06+08:00 ] ::1 /xmcy/admin.php/News/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_category` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms_category` LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 126 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 270 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 414 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 415 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 418 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 419 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 422 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\1af99151747330c06073cf3de7b9aae6.php 第 423 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2018-03-15T13:41:07+08:00 ] ::1 /xmcy/admin.php/News/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ms_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 126 行.
+NOTIC: [8] Undefined variable: production E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 402 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-03-15T13:41:10+08:00 ] ::1 /xmcy/admin.php/Partner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_partner` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_partner` ORDER BY id desc LIMIT 1   [ RunTime:0.0111s ]
+SQL: SELECT * FROM `ms_partner` LIMIT 0,13   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 126 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined index: path E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 271 行.
+NOTIC: [8] Undefined index: report E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 276 行.
+NOTIC: [8] Undefined index: bepraise E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 277 行.
+NOTIC: [8] Undefined index: froms E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 279 行.
+NOTIC: [8] Undefined index: state E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 282 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 433 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 434 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 437 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 438 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 441 行.
+NOTIC: [8] Undefined variable: post E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 442 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2018-03-15T13:41:18+08:00 ] ::1 /xmcy/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ms_image`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 127 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 272 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 272 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 272 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2018-03-15T13:41:22+08:00 ] ::1 /xmcy/admin.php/Index/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ms_image` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\99b7957f812bd941fa1b6309e9d8655c.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2018-03-15T13:41:22+08:00 ] ::1 /xmcy/admin.php/Index/assets/img/full-screen-image-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-03-15T13:44:55+08:00 ] ::1 /xmcy/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `ms_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms_image` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ms_image`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: truename E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 127 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 272 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 272 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 272 行.
+NOTIC: [8] Undefined index: recently_time E:\wamp\www\xmcy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 276 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+

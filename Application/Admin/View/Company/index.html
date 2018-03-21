@@ -101,6 +101,14 @@
                                     </fieldset>
                                     <fieldset>
                                         <div class="form-group">
+                                            <label class="col-sm-2 control-label"><span style="color:red">*&nbsp;</span>备案号</label>
+                                            <div class="col-sm-6">
+                                                <input class="form-control email" value="{$message.beian}" type="text" name="beian" placeholder="请输入备案号" />
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <div class="form-group">
                                             <label class="col-sm-2 control-label">联系我们</label>
                                             <div class="col-sm-6">
                                                 <script name='linkus' id="editor" type="text/plain" style="width:110%;height:500px;">{$message.linkus|htmlspecialchars_decode=###}</script>

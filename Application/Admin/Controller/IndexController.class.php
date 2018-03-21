@@ -26,8 +26,8 @@ class IndexController extends BaseController
             $data['addtime']=time();
             $data['is_see']=I('is_see');
             
-                $width=1920;
-                $height=500;
+                $width=1170;
+                $height=400;
             
             if($_FILES['logo_img']['name']){//判断是否有文件上传
                 $upload=new \Think\Upload();

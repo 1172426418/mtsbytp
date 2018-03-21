@@ -26,6 +26,8 @@
         <div class="logo">
             <img class="img-responsive center-block" src="/xmcy/public/home/img/logo_text.jpg" alt="">
         </div>
+<div class="c-e">
+    
 
 
         <!-- 轮播 -->
@@ -58,7 +60,7 @@
 
             </div>
         </div>
-
+</div>
 
     </section>
     <link rel="stylesheet" href="/xmcy/public/home/css/details.css">
@@ -143,6 +145,7 @@
             <img class="img-responsive center-block" src="/xmcy/public/home/img/contact.jpg" alt="">
             <h6>梦淘沙创业家族工作室</h6>
             <p>手机：<?php echo ($config["linktel"]); ?> 丨 微信：<?php echo ($config["linkwx"]); ?> 丨 联系人：<?php echo ($config["linkman"]); ?> 丨 邮箱：<?php echo ($config["linkemail"]); ?> 丨 地址：<?php echo ($config["linkadress"]); ?></p>
+            <p><?php echo ($config["beian"]); ?> </p>
         </div>
     </section>
 

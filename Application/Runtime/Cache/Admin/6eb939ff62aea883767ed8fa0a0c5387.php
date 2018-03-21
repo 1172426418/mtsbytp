@@ -178,7 +178,7 @@ Double_button('真的要删除选中的案例吗？',url);
                 <div class="collapse Partner-div" id="partnerExamples">
                     <ul class="nav">
                         <li class="Partner-index"><a href="<?php echo U('Partner/index');?>">城市列表</a></li>
-                        <li class="Partner-edit_us"><a href="<?php echo U('Partner/edit_us');?>">联系我们</a></li>
+                       <!--  <li class="Partner-edit_us"><a href="<?php echo U('Partner/edit_us');?>">联系我们</a></li> -->
                         <!-- <li class="Industry-menu"><a href="/xmcy/admin.php/Industry/menu.html">添加案例</a></li> -->
                     </ul>
                 </div>
@@ -303,6 +303,14 @@ Double_button('真的要删除选中的案例吗？',url);
                                             <label class="col-sm-2 control-label"><span style="color:red">*&nbsp;</span>地址</label>
                                             <div class="col-sm-6">
                                                 <input class="form-control email" value="<?php echo ($message["linkadress"]); ?>" type="text" name="linkadress" placeholder="请输入联系地址" />
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label"><span style="color:red">*&nbsp;</span>备案号</label>
+                                            <div class="col-sm-6">
+                                                <input class="form-control email" value="<?php echo ($message["beian"]); ?>" type="text" name="beian" placeholder="请输入备案号" />
                                             </div>
                                         </div>
                                     </fieldset>

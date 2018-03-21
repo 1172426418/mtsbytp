@@ -178,7 +178,7 @@ Double_button('真的要删除选中的案例吗？',url);
                 <div class="collapse Partner-div" id="partnerExamples">
                     <ul class="nav">
                         <li class="Partner-index"><a href="<?php echo U('Partner/index');?>">城市列表</a></li>
-                        <li class="Partner-edit_us"><a href="<?php echo U('Partner/edit_us');?>">联系我们</a></li>
+                       <!--  <li class="Partner-edit_us"><a href="<?php echo U('Partner/edit_us');?>">联系我们</a></li> -->
                         <!-- <li class="Industry-menu"><a href="/xmcy/admin.php/Industry/menu.html">添加案例</a></li> -->
                     </ul>
                 </div>

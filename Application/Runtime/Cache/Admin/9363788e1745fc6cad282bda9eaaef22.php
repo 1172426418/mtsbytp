@@ -168,14 +168,28 @@ Double_button('真的要删除选中的案例吗？',url);
                 </div>
             </li>
 
-
+            <li class="Partner">
+                <a class="Partner-a" data-toggle="collapse" href="#partnerExamples">
+                    <i class="pe-7s-users"></i>
+                    <p>合伙人体系管理
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse Partner-div" id="partnerExamples">
+                    <ul class="nav">
+                        <li class="Partner-index"><a href="<?php echo U('Partner/index');?>">城市列表</a></li>
+                       <!--  <li class="Partner-edit_us"><a href="<?php echo U('Partner/edit_us');?>">联系我们</a></li> -->
+                        <!-- <li class="Industry-menu"><a href="/xmcy/admin.php/Industry/menu.html">添加案例</a></li> -->
+                    </ul>
+                </div>
+            </li>
           
-            <li class="Blogroll">
+          <!--   <li class="Blogroll">
                 <a href="<?php echo U('Blogroll/index');?>">
                     <i class="pe-7s-smile"></i>
                     <p>友情链接</p>
                 </a>
-            </li>
+            </li> -->
 
 
 
